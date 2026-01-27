@@ -1,7 +1,7 @@
 -------------------nickel set-------------------
 
 minetest.register_tool("xtraores:pickaxe_nickel", {
-		description = "".. core.colorize("#68fff6", "Nickel pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 3\n")..core.colorize("#FFFFFF", "Full punch interval: 1.0\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
+		description = "".. core.colorize("#68fff6", "Nickel pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 3\n")..core.colorize("#FFFFFF", "Full punch interval: 1.0\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_pickaxe_nickel.png",
 	range = 4.0,
 	tool_capabilities = {
@@ -24,7 +24,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shovel_nickel", {
-		description = "".. core.colorize("#68fff6", "Nickel shovel\n")..core.colorize("#FFFFFF", "Mele damage: 3\n")..core.colorize("#FFFFFF", "Full punch interval: 1.1\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
+		description = "".. core.colorize("#68fff6", "Nickel shovel\n")..core.colorize("#FFFFFF", "melee damage: 3\n")..core.colorize("#FFFFFF", "Full punch interval: 1.1\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_shovel_nickel.png",
 	range = 4.0,
 	tool_capabilities = {
@@ -47,7 +47,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_nickel", {
-		description = "".. core.colorize("#68fff6", "Nickel axe\n")..core.colorize("#FFFFFF", "Mele damage: 4\n")..core.colorize("#FFFFFF", "Full punch interval: 1.0\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
+		description = "".. core.colorize("#68fff6", "Nickel axe\n")..core.colorize("#FFFFFF", "melee damage: 4\n")..core.colorize("#FFFFFF", "Full punch interval: 1.0\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_axe_nickel.png",
 	range = 4.0,
 	tool_capabilities = {
@@ -78,7 +78,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_nickel", {
-		description = "".. core.colorize("#68fff6", "Nickel sword\n")..core.colorize("#FFFFFF", "Mele damage: 5\n")..core.colorize("#FFFFFF", "Full punch interval: 0.8\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
+		description = "".. core.colorize("#68fff6", "Nickel sword\n")..core.colorize("#FFFFFF", "melee damage: 5\n")..core.colorize("#FFFFFF", "Full punch interval: 0.8\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_sword_nickel.png",
 	range = 4.0,
 	tool_capabilities = {
@@ -101,7 +101,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_nickel", {
-		description = "".. core.colorize("#68fff6", "Nickel shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 4\n")..core.colorize("#FFFFFF", "Full punch interval: 0.6\n")..core.colorize("#FFFFFF", "range: 3.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
+		description = "".. core.colorize("#68fff6", "Nickel shortsword\n")..core.colorize("#FFFFFF", "melee damage: 4\n")..core.colorize("#FFFFFF", "Full punch interval: 0.6\n")..core.colorize("#FFFFFF", "range: 3.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_shortsword_nickel.png",
 	range = 3.0,
 	tool_capabilities = {
@@ -126,7 +126,7 @@ minetest.register_craft({
 -------------------platinum set-------------------
 
 minetest.register_tool("xtraores:pickaxe_platinum", {
-		description = "".. core.colorize("#68fff6", "platinum pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.88\n")..core.colorize("#FFFFFF", "range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
+		description = "".. core.colorize("#68fff6", "platinum pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.88\n")..core.colorize("#FFFFFF", "range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_pickaxe_platinum.png",
 	range = 4.2,
 	tool_capabilities = {
@@ -149,7 +149,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shovel_platinum", {
-		description = "".. core.colorize("#68fff6", "platinum shovel\n")..core.colorize("#FFFFFF", "Mele damage: 5\n")..core.colorize("#FFFFFF", "Full punch interval: 0.98\n")..core.colorize("#FFFFFF", "range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
+		description = "".. core.colorize("#68fff6", "platinum shovel\n")..core.colorize("#FFFFFF", "melee damage: 5\n")..core.colorize("#FFFFFF", "Full punch interval: 0.98\n")..core.colorize("#FFFFFF", "range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_shovel_platinum.png",
 	range = 4.2,
 	tool_capabilities = {
@@ -172,7 +172,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_platinum", {
-		description = "".. core.colorize("#68fff6", "platinum axe\n")..core.colorize("#FFFFFF", "Mele damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.88\n")..core.colorize("#FFFFFF", "range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
+		description = "".. core.colorize("#68fff6", "platinum axe\n")..core.colorize("#FFFFFF", "melee damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.88\n")..core.colorize("#FFFFFF", "range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_axe_platinum.png",
 	range = 4.2,
 	tool_capabilities = {
@@ -203,7 +203,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_platinum", {
-		description = "".. core.colorize("#68fff6", "platinum sword\n")..core.colorize("#FFFFFF", "Mele damage: 7\n")..core.colorize("#FFFFFF", "Full punch interval: 0.68\n")..core.colorize("#FFFFFF", "range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
+		description = "".. core.colorize("#68fff6", "platinum sword\n")..core.colorize("#FFFFFF", "melee damage: 7\n")..core.colorize("#FFFFFF", "Full punch interval: 0.68\n")..core.colorize("#FFFFFF", "range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_sword_platinum.png",
 	range = 4.2,
 	tool_capabilities = {
@@ -226,7 +226,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_platinum", {
-		description = "".. core.colorize("#68fff6", "platinum shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.58\n")..core.colorize("#FFFFFF", "range: 3.1\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
+		description = "".. core.colorize("#68fff6", "platinum shortsword\n")..core.colorize("#FFFFFF", "melee damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.58\n")..core.colorize("#FFFFFF", "range: 3.1\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_shortsword_platinum.png",
 	range = 3.1,
 	tool_capabilities = {
@@ -251,7 +251,7 @@ minetest.register_craft({
 -------------------palladium set-------------------
 
 minetest.register_tool("xtraores:pickaxe_palladium", {
-		description = "".. core.colorize("#68fff6", "Palladium pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.86\n")..core.colorize("#FFFFFF", "range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
+		description = "".. core.colorize("#68fff6", "Palladium pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.86\n")..core.colorize("#FFFFFF", "range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_pickaxe_palladium.png",
 	range = 4.4,
 	tool_capabilities = {
@@ -274,7 +274,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shovel_palladium", {
-		description = "".. core.colorize("#68fff6", "Palladium shovel\n")..core.colorize("#FFFFFF", "Mele damage: 7\n")..core.colorize("#FFFFFF", "Full punch interval: 0.96\n")..core.colorize("#FFFFFF", "range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
+		description = "".. core.colorize("#68fff6", "Palladium shovel\n")..core.colorize("#FFFFFF", "melee damage: 7\n")..core.colorize("#FFFFFF", "Full punch interval: 0.96\n")..core.colorize("#FFFFFF", "range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_shovel_palladium.png",
 	range = 4.4,
 	tool_capabilities = {
@@ -297,7 +297,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_palladium", {
-		description = "".. core.colorize("#68fff6", "Palladium axe\n")..core.colorize("#FFFFFF", "Mele damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.86\n")..core.colorize("#FFFFFF", "range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
+		description = "".. core.colorize("#68fff6", "Palladium axe\n")..core.colorize("#FFFFFF", "melee damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.86\n")..core.colorize("#FFFFFF", "range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_axe_palladium.png",
 	range = 4.4,
 	tool_capabilities = {
@@ -328,7 +328,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_palladium", {
-		description = "".. core.colorize("#68fff6", "palladium sword\n")..core.colorize("#FFFFFF", "Mele damage: 9\n")..core.colorize("#FFFFFF", "Full punch interval: 0.66\n")..core.colorize("#FFFFFF", "range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
+		description = "".. core.colorize("#68fff6", "palladium sword\n")..core.colorize("#FFFFFF", "melee damage: 9\n")..core.colorize("#FFFFFF", "Full punch interval: 0.66\n")..core.colorize("#FFFFFF", "range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_sword_palladium.png",
 	range = 4.4,
 	tool_capabilities = {
@@ -351,7 +351,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_palladium", {
-		description = "".. core.colorize("#68fff6", "palladium shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.56\n")..core.colorize("#FFFFFF", "range: 3.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
+		description = "".. core.colorize("#68fff6", "palladium shortsword\n")..core.colorize("#FFFFFF", "melee damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.56\n")..core.colorize("#FFFFFF", "range: 3.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_shortsword_palladium.png",
 	range = 3.2,
 	tool_capabilities = {
@@ -376,7 +376,7 @@ minetest.register_craft({
 -------------------cobalt set-------------------
 
 minetest.register_tool("xtraores:pickaxe_cobalt", {
-		description = "".. core.colorize("#68fff6", "cobalt pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
+		description = "".. core.colorize("#68fff6", "cobalt pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_pickaxe_cobalt.png",
 	range = 4.6,
 	tool_capabilities = {
@@ -399,7 +399,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shovel_cobalt", {
-		description = "".. core.colorize("#68fff6", "cobalt shovel\n")..core.colorize("#FFFFFF", "Mele damage: 9\n")..core.colorize("#FFFFFF", "Full punch interval: 0.94\n")..core.colorize("#FFFFFF", "range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
+		description = "".. core.colorize("#68fff6", "cobalt shovel\n")..core.colorize("#FFFFFF", "melee damage: 9\n")..core.colorize("#FFFFFF", "Full punch interval: 0.94\n")..core.colorize("#FFFFFF", "range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_shovel_cobalt.png",
 	range = 4.6,
 	tool_capabilities = {
@@ -422,7 +422,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_cobalt", {
-		description = "".. core.colorize("#68fff6", "cobalt axe\n")..core.colorize("#FFFFFF", "Mele damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
+		description = "".. core.colorize("#68fff6", "cobalt axe\n")..core.colorize("#FFFFFF", "melee damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_axe_cobalt.png",
 	range = 4.6,
 	tool_capabilities = {
@@ -453,7 +453,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_cobalt", {
-		description = "".. core.colorize("#68fff6", "cobalt sword\n")..core.colorize("#FFFFFF", "Mele damage: 11\n")..core.colorize("#FFFFFF", "Full punch interval: 0.64\n")..core.colorize("#FFFFFF", "range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
+		description = "".. core.colorize("#68fff6", "cobalt sword\n")..core.colorize("#FFFFFF", "melee damage: 11\n")..core.colorize("#FFFFFF", "Full punch interval: 0.64\n")..core.colorize("#FFFFFF", "range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_sword_cobalt.png",
 	range = 4.6,
 	tool_capabilities = {
@@ -476,7 +476,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_cobalt", {
-		description = "".. core.colorize("#68fff6", "cobalt shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.54\n")..core.colorize("#FFFFFF", "range: 3.3\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
+		description = "".. core.colorize("#68fff6", "cobalt shortsword\n")..core.colorize("#FFFFFF", "melee damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.54\n")..core.colorize("#FFFFFF", "range: 3.3\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_shortsword_cobalt.png",
 	range = 3.3,
 	tool_capabilities = {
@@ -501,7 +501,7 @@ minetest.register_craft({
 -------------------thorium set-------------------
 
 minetest.register_tool("xtraores:pickaxe_thorium", {
-		description = "".. core.colorize("#68fff6", "Thorium pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.82\n")..core.colorize("#FFFFFF", "range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
+		description = "".. core.colorize("#68fff6", "Thorium pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.82\n")..core.colorize("#FFFFFF", "range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_pickaxe_thorium.png",
 	range = 4.8,
 	tool_capabilities = {
@@ -526,7 +526,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_thorium", {
-		description = "".. core.colorize("#68fff6", "Thorium axe\n")..core.colorize("#FFFFFF", "Mele damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.82\n")..core.colorize("#FFFFFF", "range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
+		description = "".. core.colorize("#68fff6", "Thorium axe\n")..core.colorize("#FFFFFF", "melee damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.82\n")..core.colorize("#FFFFFF", "range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_axe_thorium.png",
 	range = 4.8,
 	tool_capabilities = {
@@ -557,7 +557,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_thorium", {
-		description = "".. core.colorize("#68fff6", "Thorium sword\n")..core.colorize("#FFFFFF", "Mele damage: 13\n")..core.colorize("#FFFFFF", "Full punch interval: 0.62\n")..core.colorize("#FFFFFF", "range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
+		description = "".. core.colorize("#68fff6", "Thorium sword\n")..core.colorize("#FFFFFF", "melee damage: 13\n")..core.colorize("#FFFFFF", "Full punch interval: 0.62\n")..core.colorize("#FFFFFF", "range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_sword_thorium.png",
 	range = 4.8,
 	tool_capabilities = {
@@ -580,7 +580,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:spear_thorium", {
-		description = "".. core.colorize("#68fff6", "Thorium spear\n")..core.colorize("#FFFFFF", "Mele damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.93\n")..core.colorize("#FFFFFF", "range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
+		description = "".. core.colorize("#68fff6", "Thorium spear\n")..core.colorize("#FFFFFF", "melee damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.93\n")..core.colorize("#FFFFFF", "range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_spear_thorium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
 	range = 6.0,
@@ -605,7 +605,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_thorium", {
-		description = "".. core.colorize("#68fff6", "Thorium shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.52\n")..core.colorize("#FFFFFF", "range: 3.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
+		description = "".. core.colorize("#68fff6", "Thorium shortsword\n")..core.colorize("#FFFFFF", "melee damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.52\n")..core.colorize("#FFFFFF", "range: 3.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_shortsword_thorium.png",
 	range = 3.4,
 	tool_capabilities = {
@@ -630,7 +630,7 @@ minetest.register_craft({
 -------------------osmium set-------------------
 
 minetest.register_tool("xtraores:pickaxe_osmium", {
-		description = "".. core.colorize("#68fff6", "Osmium pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.80\n")..core.colorize("#FFFFFF", "range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
+		description = "".. core.colorize("#68fff6", "Osmium pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.80\n")..core.colorize("#FFFFFF", "range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_pickaxe_osmium.png",
 	range = 5.0,
 	tool_capabilities = {
@@ -655,7 +655,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_osmium", {
-		description = "".. core.colorize("#68fff6", "Osmium axe\n")..core.colorize("#FFFFFF", "Mele damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.80\n")..core.colorize("#FFFFFF", "range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
+		description = "".. core.colorize("#68fff6", "Osmium axe\n")..core.colorize("#FFFFFF", "melee damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.80\n")..core.colorize("#FFFFFF", "range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_axe_osmium.png",
 	range = 5.0,
 	tool_capabilities = {
@@ -686,7 +686,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_osmium", {
-		description = "".. core.colorize("#68fff6", "Osmium sword\n")..core.colorize("#FFFFFF", "Mele damage: 15\n")..core.colorize("#FFFFFF", "Full punch interval: 0.60\n")..core.colorize("#FFFFFF", "range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
+		description = "".. core.colorize("#68fff6", "Osmium sword\n")..core.colorize("#FFFFFF", "melee damage: 15\n")..core.colorize("#FFFFFF", "Full punch interval: 0.60\n")..core.colorize("#FFFFFF", "range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_sword_osmium.png",
 	range = 5.0,
 	tool_capabilities = {
@@ -709,7 +709,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:spear_osmium", {
-		description = "".. core.colorize("#68fff6", "Osmium spear\n")..core.colorize("#FFFFFF", "Mele damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.90\n")..core.colorize("#FFFFFF", "range: 6.3\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
+		description = "".. core.colorize("#68fff6", "Osmium spear\n")..core.colorize("#FFFFFF", "melee damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.90\n")..core.colorize("#FFFFFF", "range: 6.3\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_spear_osmium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
 	range = 6.3,
@@ -734,7 +734,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_osmium", {
-		description = "".. core.colorize("#68fff6", "Osmium shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.50\n")..core.colorize("#FFFFFF", "range: 3.5\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
+		description = "".. core.colorize("#68fff6", "Osmium shortsword\n")..core.colorize("#FFFFFF", "melee damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.50\n")..core.colorize("#FFFFFF", "range: 3.5\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_shortsword_osmium.png",
 	range = 3.5,
 	tool_capabilities = {
@@ -759,7 +759,7 @@ minetest.register_craft({
 -------------------rhenium set-------------------
 
 minetest.register_tool("xtraores:pickaxe_rhenium", {
-		description = "".. core.colorize("#68fff6", "Rhenium pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
+		description = "".. core.colorize("#68fff6", "Rhenium pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_pickaxe_rhenium.png",
 	range = 5.2,
 	tool_capabilities = {
@@ -784,7 +784,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_rhenium", {
-		description = "".. core.colorize("#68fff6", "Rhenium axe\n")..core.colorize("#FFFFFF", "Mele damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
+		description = "".. core.colorize("#68fff6", "Rhenium axe\n")..core.colorize("#FFFFFF", "melee damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_axe_rhenium.png",
 	range = 5.2,
 	tool_capabilities = {
@@ -815,7 +815,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_rhenium", {
-		description = "".. core.colorize("#68fff6", "Rhenium sword\n")..core.colorize("#FFFFFF", "Mele damage: 17\n")..core.colorize("#FFFFFF", "Full punch interval: 0.58\n")..core.colorize("#FFFFFF", "range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
+		description = "".. core.colorize("#68fff6", "Rhenium sword\n")..core.colorize("#FFFFFF", "melee damage: 17\n")..core.colorize("#FFFFFF", "Full punch interval: 0.58\n")..core.colorize("#FFFFFF", "range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_sword_rhenium.png",
 	range = 5.2,
 	tool_capabilities = {
@@ -838,7 +838,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:spear_rhenium", {
-		description = "".. core.colorize("#68fff6", "Rhenium spear\n")..core.colorize("#FFFFFF", "Mele damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.87\n")..core.colorize("#FFFFFF", "range: 6.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
+		description = "".. core.colorize("#68fff6", "Rhenium spear\n")..core.colorize("#FFFFFF", "melee damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.87\n")..core.colorize("#FFFFFF", "range: 6.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_spear_rhenium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
 	range = 6.6,
@@ -863,7 +863,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_rhenium", {
-		description = "".. core.colorize("#68fff6", "Rhenium shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.48\n")..core.colorize("#FFFFFF", "range: 3.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
+		description = "".. core.colorize("#68fff6", "Rhenium shortsword\n")..core.colorize("#FFFFFF", "melee damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.48\n")..core.colorize("#FFFFFF", "range: 3.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_shortsword_rhenium.png",
 	range = 3.6,
 	tool_capabilities = {
@@ -888,7 +888,7 @@ minetest.register_craft({
 -------------------vanadium set-------------------
 
 minetest.register_tool("xtraores:pickaxe_vanadium", {
-		description = "".. core.colorize("#68fff6", "vanadium pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
+		description = "".. core.colorize("#68fff6", "vanadium pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_pickaxe_vanadium.png",
 	range = 5.4,
 	tool_capabilities = {
@@ -913,7 +913,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_vanadium", {
-		description = "".. core.colorize("#68fff6", "vanadium axe\n")..core.colorize("#FFFFFF", "Mele damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
+		description = "".. core.colorize("#68fff6", "vanadium axe\n")..core.colorize("#FFFFFF", "melee damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_axe_vanadium.png",
 	range = 5.4,
 	tool_capabilities = {
@@ -944,7 +944,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_vanadium", {
-		description = "".. core.colorize("#68fff6", "vanadium sword\n")..core.colorize("#FFFFFF", "Mele damage: 19\n")..core.colorize("#FFFFFF", "Full punch interval: 0.56\n")..core.colorize("#FFFFFF", "range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
+		description = "".. core.colorize("#68fff6", "vanadium sword\n")..core.colorize("#FFFFFF", "melee damage: 19\n")..core.colorize("#FFFFFF", "Full punch interval: 0.56\n")..core.colorize("#FFFFFF", "range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_sword_vanadium.png",
 	range = 5.4,
 	tool_capabilities = {
@@ -967,7 +967,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:spear_vanadium", {
-		description = "".. core.colorize("#68fff6", "vanadium spear\n")..core.colorize("#FFFFFF", "Mele damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "range: 6.85\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
+		description = "".. core.colorize("#68fff6", "vanadium spear\n")..core.colorize("#FFFFFF", "melee damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "range: 6.85\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_spear_vanadium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
 	range = 6.85,
@@ -992,7 +992,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_vanadium", {
-		description = "".. core.colorize("#68fff6", "vanadium shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.46\n")..core.colorize("#FFFFFF", "range: 3.7\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
+		description = "".. core.colorize("#68fff6", "vanadium shortsword\n")..core.colorize("#FFFFFF", "melee damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.46\n")..core.colorize("#FFFFFF", "range: 3.7\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_shortsword_vanadium.png",
 	range = 3.7,
 	tool_capabilities = {
@@ -1017,7 +1017,7 @@ minetest.register_craft({
 -------------------rarium set-------------------
 
 minetest.register_tool("xtraores:pickaxe_rarium", {
-		description = "".. core.colorize("#68fff6", "rarium pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.74\n")..core.colorize("#FFFFFF", "range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
+		description = "".. core.colorize("#68fff6", "rarium pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.74\n")..core.colorize("#FFFFFF", "range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_pickaxe_rarium.png",
 	range = 5.6,
 	tool_capabilities = {
@@ -1042,7 +1042,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_rarium", {
-		description = "".. core.colorize("#68fff6", "rarium axe\n")..core.colorize("#FFFFFF", "Mele damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.74\n")..core.colorize("#FFFFFF", "range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
+		description = "".. core.colorize("#68fff6", "rarium axe\n")..core.colorize("#FFFFFF", "melee damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.74\n")..core.colorize("#FFFFFF", "range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_axe_rarium.png",
 	range = 5.6,
 	tool_capabilities = {
@@ -1073,7 +1073,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_rarium", {
-		description = "".. core.colorize("#68fff6", "rarium sword\n")..core.colorize("#FFFFFF", "Mele damage: 21\n")..core.colorize("#FFFFFF", "Full punch interval: 0.54\n")..core.colorize("#FFFFFF", "range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
+		description = "".. core.colorize("#68fff6", "rarium sword\n")..core.colorize("#FFFFFF", "melee damage: 21\n")..core.colorize("#FFFFFF", "Full punch interval: 0.54\n")..core.colorize("#FFFFFF", "range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_sword_rarium.png",
 	range = 5.6,
 	tool_capabilities = {
@@ -1096,7 +1096,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:spear_rarium", {
-		description = "".. core.colorize("#68fff6", "rarium spear\n")..core.colorize("#FFFFFF", "Mele damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.81\n")..core.colorize("#FFFFFF", "range: 7.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
+		description = "".. core.colorize("#68fff6", "rarium spear\n")..core.colorize("#FFFFFF", "melee damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.81\n")..core.colorize("#FFFFFF", "range: 7.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_spear_rarium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
 	range = 7.0,
@@ -1121,7 +1121,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_rarium", {
-		description = "".. core.colorize("#68fff6", "rarium shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.44\n")..core.colorize("#FFFFFF", "range: 3.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
+		description = "".. core.colorize("#68fff6", "rarium shortsword\n")..core.colorize("#FFFFFF", "melee damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.44\n")..core.colorize("#FFFFFF", "range: 3.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_shortsword_rarium.png",
 	range = 3.8,
 	tool_capabilities = {
@@ -1146,7 +1146,7 @@ minetest.register_craft({
 -------------------orichalcum set-------------------
 
 minetest.register_tool("xtraores:pickaxe_orichalcum", {
-		description = "".. core.colorize("#68fff6", "Orichalcum pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.72\n")..core.colorize("#FFFFFF", "range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
+		description = "".. core.colorize("#68fff6", "Orichalcum pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.72\n")..core.colorize("#FFFFFF", "range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_pickaxe_orichalcum.png",
 	range = 5.8,
 	tool_capabilities = {
@@ -1171,7 +1171,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_orichalcum", {
-		description = "".. core.colorize("#68fff6", "Orichalcum axe\n")..core.colorize("#FFFFFF", "Mele damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.72\n")..core.colorize("#FFFFFF", "range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
+		description = "".. core.colorize("#68fff6", "Orichalcum axe\n")..core.colorize("#FFFFFF", "melee damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.72\n")..core.colorize("#FFFFFF", "range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_axe_orichalcum.png",
 	range = 5.8,
 	tool_capabilities = {
@@ -1202,7 +1202,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_orichalcum", {
-		description = "".. core.colorize("#68fff6", "Orichalcum sword\n")..core.colorize("#FFFFFF", "Mele damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.52\n")..core.colorize("#FFFFFF", "range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
+		description = "".. core.colorize("#68fff6", "Orichalcum sword\n")..core.colorize("#FFFFFF", "melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.52\n")..core.colorize("#FFFFFF", "range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_sword_orichalcum.png",
 	range = 5.8,
 	tool_capabilities = {
@@ -1225,7 +1225,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:spear_orichalcum", {
-		description = "".. core.colorize("#68fff6", "Orichalcum spear\n")..core.colorize("#FFFFFF", "Mele damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "range: 7.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
+		description = "".. core.colorize("#68fff6", "Orichalcum spear\n")..core.colorize("#FFFFFF", "melee damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "range: 7.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_spear_orichalcum.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
 	range = 7.2,
@@ -1250,7 +1250,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_orichalcum", {
-		description = "".. core.colorize("#68fff6", "Orichalcum shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.42\n")..core.colorize("#FFFFFF", "range: 3.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
+		description = "".. core.colorize("#68fff6", "Orichalcum shortsword\n")..core.colorize("#FFFFFF", "melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.42\n")..core.colorize("#FFFFFF", "range: 3.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_shortsword_orichalcum.png",
 	range = 3.9,
 	tool_capabilities = {
@@ -1276,7 +1276,7 @@ minetest.register_craft({
 -------------------titanium set-------------------
 
 minetest.register_tool("xtraores:pickaxe_titanium", {
-		description = "".. core.colorize("#68fff6", "titanium pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.70\n")..core.colorize("#FFFFFF", "range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
+		description = "".. core.colorize("#68fff6", "titanium pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.70\n")..core.colorize("#FFFFFF", "range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_pickaxe_titanium.png",
 	range = 5.9,
 	tool_capabilities = {
@@ -1301,7 +1301,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_titanium", {
-		description = "".. core.colorize("#68fff6", "titanium axe\n")..core.colorize("#FFFFFF", "Mele damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.70\n")..core.colorize("#FFFFFF", "range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
+		description = "".. core.colorize("#68fff6", "titanium axe\n")..core.colorize("#FFFFFF", "melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.70\n")..core.colorize("#FFFFFF", "range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_axe_titanium.png",
 	range = 5.9,
 	tool_capabilities = {
@@ -1332,7 +1332,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_titanium", {
-		description = "".. core.colorize("#68fff6", "titanium sword\n")..core.colorize("#FFFFFF", "Mele damage: 25\n")..core.colorize("#FFFFFF", "Full punch interval: 0.50\n")..core.colorize("#FFFFFF", "range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
+		description = "".. core.colorize("#68fff6", "titanium sword\n")..core.colorize("#FFFFFF", "melee damage: 25\n")..core.colorize("#FFFFFF", "Full punch interval: 0.50\n")..core.colorize("#FFFFFF", "range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_sword_titanium.png",
 	range = 5.9,
 	tool_capabilities = {
@@ -1355,7 +1355,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:spear_titanium", {
-		description = "".. core.colorize("#68fff6", "titanium spear\n")..core.colorize("#FFFFFF", "Mele damage: 26\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "range: 7.35\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
+		description = "".. core.colorize("#68fff6", "titanium spear\n")..core.colorize("#FFFFFF", "melee damage: 26\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "range: 7.35\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_spear_titanium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
 	range = 7.35,
@@ -1380,7 +1380,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_titanium", {
-		description = "".. core.colorize("#68fff6", "titanium shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.40\n")..core.colorize("#FFFFFF", "range: 3.95\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
+		description = "".. core.colorize("#68fff6", "titanium shortsword\n")..core.colorize("#FFFFFF", "melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.40\n")..core.colorize("#FFFFFF", "range: 3.95\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_shortsword_titanium.png",
 	range = 3.95,
 	tool_capabilities = {
@@ -1405,7 +1405,7 @@ minetest.register_craft({
 -------------------chromium set-------------------
 
 minetest.register_tool("xtraores:pickaxe_chromium", {
-		description = "".. core.colorize("#68fff6", "chromium pickaxe\n")..core.colorize("#FFFFFF", "Mele damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.69\n")..core.colorize("#FFFFFF", "range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
+		description = "".. core.colorize("#68fff6", "chromium pickaxe\n")..core.colorize("#FFFFFF", "melee damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.69\n")..core.colorize("#FFFFFF", "range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_pickaxe_chromium.png",
 	range = 6.0,
 	tool_capabilities = {
@@ -1430,7 +1430,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:axe_chromium", {
-		description = "".. core.colorize("#68fff6", "chromium axe\n")..core.colorize("#FFFFFF", "Mele damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.69\n")..core.colorize("#FFFFFF", "range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
+		description = "".. core.colorize("#68fff6", "chromium axe\n")..core.colorize("#FFFFFF", "melee damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.69\n")..core.colorize("#FFFFFF", "range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_axe_chromium.png",
 	range = 6.0,
 	tool_capabilities = {
@@ -1461,7 +1461,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:sword_chromium", {
-		description = "".. core.colorize("#68fff6", "chromium sword\n")..core.colorize("#FFFFFF", "Mele damage: 27\n")..core.colorize("#FFFFFF", "Full punch interval: 0.48\n")..core.colorize("#FFFFFF", "range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
+		description = "".. core.colorize("#68fff6", "chromium sword\n")..core.colorize("#FFFFFF", "melee damage: 27\n")..core.colorize("#FFFFFF", "Full punch interval: 0.48\n")..core.colorize("#FFFFFF", "range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_sword_chromium.png",
 	range = 6.0,
 	tool_capabilities = {
@@ -1484,7 +1484,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:spear_chromium", {
-		description = "".. core.colorize("#68fff6", "chromium spear\n")..core.colorize("#FFFFFF", "Mele damage: 29\n")..core.colorize("#FFFFFF", "Full punch interval: 0.75\n")..core.colorize("#FFFFFF", "range: 7.5\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
+		description = "".. core.colorize("#68fff6", "chromium spear\n")..core.colorize("#FFFFFF", "melee damage: 29\n")..core.colorize("#FFFFFF", "Full punch interval: 0.75\n")..core.colorize("#FFFFFF", "range: 7.5\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_spear_chromium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
 	range = 7.5,
@@ -1509,7 +1509,7 @@ minetest.register_craft({
 })
 
 minetest.register_tool("xtraores:shortsword_chromium", {
-		description = "".. core.colorize("#68fff6", "chromium shortsword\n")..core.colorize("#FFFFFF", "Mele damage: 25\n")..core.colorize("#FFFFFF", "Full punch interval: 0.38\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
+		description = "".. core.colorize("#68fff6", "chromium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 25\n")..core.colorize("#FFFFFF", "Full punch interval: 0.38\n")..core.colorize("#FFFFFF", "range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_shortsword_chromium.png",
 	range = 4.0,
 	tool_capabilities = {
