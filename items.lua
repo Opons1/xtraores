@@ -87,7 +87,7 @@ core.register_craftitem('xtraores:steel_handle', {
 	inventory_image = "xtraores_steel_handle.png",
 	stack_max= 999,
 })
-
+--[[
 core.register_craft({
 	output = 'xtraores:steel_handle 5',
 	recipe = {
@@ -96,7 +96,7 @@ core.register_craft({
 		{'default:steel_ingot', '', ''},
 	}
 })
-
+]]
 core.register_craftitem('xtraores:duraglass_handle', {
 		description = "".. core.colorize("#68fff6", "Duraglass handle\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores material level: 9-12"),
 	inventory_image = "xtraores_duraglass_handle.png",
