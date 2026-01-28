@@ -382,7 +382,7 @@ core.register_craft({
 ---------------------uranium---------------------
 
 core.register_node("xtraores:uranium_ore", {
-		description = "" ..core.colorize("#68fff6", "uranium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 11"),
+		description = "" ..core.colorize("#68fff6", "Strong Uranium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 11"),
 	tiles = {{
 		    name = "xtraores_uranium_ore.png",
 		    animation = {type = "vertical_frames", aspect_w = 16, aspect_h = 16, length = 1.0}
@@ -394,7 +394,7 @@ core.register_node("xtraores:uranium_ore", {
 	on_blast = function() end,
 	sounds = default.node_sound_stone_defaults(),
 })
-
+--[[
 	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:uranium_ore",
@@ -405,7 +405,7 @@ core.register_node("xtraores:uranium_ore", {
 		y_min          = -31000,
 		y_max          = -15000,
 	})
-
+]]
 core.register_craft({
 	type = "cooking",
 	cooktime = 145,
@@ -416,7 +416,7 @@ core.register_craft({
 ---------------------chromium---------------------
 
 core.register_node("xtraores:chromium_ore", {
-		description = "" ..core.colorize("#68fff6", "chromium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 12"),
+		description = "" ..core.colorize("#68fff6", "Strong Chromium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 12"),
 	tiles = {"default_stone.png^xtraores_chromium_ore.png"},
 	inventory_image = "xtraores_chromium_lump.png",
 	stack_max= 999,
@@ -424,7 +424,7 @@ core.register_node("xtraores:chromium_ore", {
 	on_blast = function() end,
 	sounds = default.node_sound_stone_defaults(),
 })
-
+--[[
 	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:chromium_ore",
@@ -435,7 +435,7 @@ core.register_node("xtraores:chromium_ore", {
 		y_min          = -31000,
 		y_max          = -18000,
 	})
-
+]]
 core.register_craft({
 	type = "cooking",
 	cooktime = 180,
