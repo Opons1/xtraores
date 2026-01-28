@@ -6,10 +6,11 @@ dofile(xtraores.path .. "/items.lua")
 dofile(xtraores.path .. "/tools.lua")
 dofile(xtraores.path .. "/armor.lua")
 dofile(xtraores.path .. "/oreblocks.lua")
-dofile(xtraores.path .. "/special_weapons.lua")
+--dofile(xtraores.path .. "/special_weapons.lua")
 dofile(xtraores.path .. "/other_blocks.lua")
 dofile(xtraores.path .. "/awards.lua")
---i tried
+--i tried not worth it
+--[[
 core.register_globalstep(function(dtime, player, pos)
 	for _, player in pairs(core.get_connected_players()) do
 		local meta = player:get_meta()
@@ -63,3 +64,4 @@ core.register_globalstep(function(dtime, player, pos)
 		end
 	end
 )
+]]
