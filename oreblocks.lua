@@ -107,7 +107,7 @@ core.register_craft({
 	}
 })
 core.register_node("xtraores:decobrick_platinum", {
-		description = "" ..core.colorize("#68fff6", "Decorative platinum brick\n")..core.colorize("#FFFFFF", "Can be placed"),
+		description = "" ..core.colorize("#68fff6", "Decorative Platinum brick\n")..core.colorize("#FFFFFF", "Can be placed"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_decobrick_platinum.png"},
@@ -129,7 +129,7 @@ core.register_craft({
 -----palladium--------
 
 core.register_node("xtraores:brick_palladium", {
-		description = "" ..core.colorize("#68fff6", "palladium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Palladium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_brick_palladium.png"},
@@ -146,7 +146,7 @@ core.register_craft( {
 })
 
 core.register_node("xtraores:block_palladium", {
-		description = "" ..core.colorize("#68fff6", "palladium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Palladium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_block_palladium.png"},
@@ -193,7 +193,7 @@ core.register_craft({
 -----cobalt--------
 
 core.register_node("xtraores:brick_cobalt", {
-		description = "" ..core.colorize("#68fff6", "cobalt brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Cobalt brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_brick_cobalt.png"},
@@ -210,7 +210,7 @@ core.register_craft( {
 })
 
 core.register_node("xtraores:block_cobalt", {
-		description = "" ..core.colorize("#68fff6", "cobalt block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Cobalt block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_block_cobalt.png"},
@@ -235,7 +235,7 @@ core.register_craft({
 	}
 })
 core.register_node("xtraores:decobrick_cobalt", {
-		description = "" ..core.colorize("#68fff6", "Decorative cobalt brick\n")..core.colorize("#FFFFFF", "Can be placed"),
+		description = "" ..core.colorize("#68fff6", "Decorative Cobalt brick\n")..core.colorize("#FFFFFF", "Can be placed"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_decobrick_cobalt.png"},
@@ -257,7 +257,7 @@ core.register_craft({
 -----thorium--------
 
 core.register_node("xtraores:brick_thorium", {
-		description = "" ..core.colorize("#68fff6", "thorium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Thorium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_brick_thorium.png"},
@@ -275,7 +275,7 @@ core.register_craft( {
 })
 
 core.register_node("xtraores:block_thorium", {
-		description = "" ..core.colorize("#68fff6", "thorium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Thorium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_block_thorium.png"},
@@ -301,7 +301,7 @@ core.register_craft({
 	}
 })
 core.register_node("xtraores:decobrick_thorium", {
-		description = "" ..core.colorize("#68fff6", "Decorative thorium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
+		description = "" ..core.colorize("#68fff6", "Decorative Thorium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {"xtraores_decobrick_thorium.png"},
@@ -525,7 +525,7 @@ core.register_craft({
 -----rarium--------
 
 core.register_node("xtraores:brick_rarium", {
-		description = "" ..core.colorize("#68fff6", "rarium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Rarium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {{
 		    name = "xtraores_brick_rarium.png",
 		    animation = {type = "vertical_frames", aspect_w = 16, aspect_h = 16, length = 0.66}
@@ -547,7 +547,7 @@ core.register_craft( {
 })
 
 core.register_node("xtraores:block_rarium", {
-		description = "" ..core.colorize("#68fff6", "rarium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Rarium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {{
 		    name = "xtraores_block_rarium.png",
 		    animation = {type = "vertical_frames", aspect_w = 16, aspect_h = 16, length = 0.66}
@@ -577,7 +577,7 @@ core.register_craft({
 	}
 })
 core.register_node("xtraores:decobrick_rarium", {
-		description = "" ..core.colorize("#68fff6", "Decorative rarium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
+		description = "" ..core.colorize("#68fff6", "Decorative Rarium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
 	paramtype2 = "facedir",
 	place_param2 = 0,
 	tiles = {{
@@ -604,7 +604,7 @@ core.register_craft({
 -----orichalcum--------
 
 core.register_node("xtraores:brick_orichalcum", {
-		description = "" ..core.colorize("#68fff6", "orichalcum brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Orichalcum brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {"xtraores_brick_orichalcum.png"},
 	paramtype2 = "facedir",
 	place_param2 = 0,
@@ -622,7 +622,7 @@ core.register_craft( {
 })
 
 core.register_node("xtraores:block_orichalcum", {
-		description = "" ..core.colorize("#68fff6", "orichalcum block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Orichalcum block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {"xtraores_block_orichalcum.png"},
 	paramtype2 = "facedir",
 	place_param2 = 0,
@@ -648,7 +648,7 @@ core.register_craft({
 	}
 })
 core.register_node("xtraores:decobrick_orichalcum", {
-		description = "" ..core.colorize("#68fff6", "Decorative orichalcum brick\n")..core.colorize("#FFFFFF", "Can be placed"),
+		description = "" ..core.colorize("#68fff6", "Decorative Orichalcum brick\n")..core.colorize("#FFFFFF", "Can be placed"),
 	tiles = {"xtraores_decobrick_orichalcum.png"},
 	is_ground_content = false,
 	stack_max= 999,
@@ -669,7 +669,7 @@ core.register_craft({
 -----titanium--------
 
 core.register_node("xtraores:brick_titanium", {
-		description = "" ..core.colorize("#68fff6", "titanium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Titanium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {"xtraores_brick_titanium.png"},
 	paramtype2 = "facedir",
 	place_param2 = 0,
@@ -687,7 +687,7 @@ core.register_craft( {
 })
 
 core.register_node("xtraores:block_titanium", {
-		description = "" ..core.colorize("#68fff6", "titanium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Titanium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {"xtraores_block_titanium.png"},
 	paramtype2 = "facedir",
 	place_param2 = 0,
@@ -713,7 +713,7 @@ core.register_craft({
 	}
 })
 core.register_node("xtraores:decobrick_titanium", {
-		description = "" ..core.colorize("#68fff6", "Decorative titanium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
+		description = "" ..core.colorize("#68fff6", "Decorative Titanium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
 	tiles = {"xtraores_decobrick_titanium.png"},
 	is_ground_content = false,
 	stack_max= 999,
@@ -734,7 +734,7 @@ core.register_craft({
 -----uranium--------
 
 core.register_node("xtraores:brick_uranium", {
-		description = "" ..core.colorize("#68fff6", "uranium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Uranium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {{
 		    name = "xtraores_brick_uranium.png",
 		    animation = {type = "vertical_frames", aspect_w = 16, aspect_h = 16, length = 0.75}
@@ -756,7 +756,7 @@ core.register_craft( {
 })
 
 core.register_node("xtraores:block_uranium", {
-		description = "" ..core.colorize("#68fff6", "uranium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Uranium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {{
 		    name = "xtraores_block_uranium.png",
 		    animation = {type = "vertical_frames", aspect_w = 16, aspect_h = 16, length = 0.75}
@@ -786,7 +786,7 @@ core.register_craft({
 	}
 })
 core.register_node("xtraores:decobrick_uranium", {
-		description = "" ..core.colorize("#68fff6", "Decorative uranium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
+		description = "" ..core.colorize("#68fff6", "Decorative Uranium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
 	tiles = {{
 		    name = "xtraores_decobrick_uranium.png",
 		    animation = {type = "vertical_frames", aspect_w = 16, aspect_h = 16, length = 0.75}
@@ -811,7 +811,7 @@ core.register_craft({
 -----chromium--------
 
 core.register_node("xtraores:brick_chromium", {
-		description = "" ..core.colorize("#68fff6", "chromium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Chromium brick\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {"xtraores_brick_chromium.png"},
 	paramtype2 = "facedir",
 	place_param2 = 0,
@@ -829,7 +829,7 @@ core.register_craft( {
 })
 
 core.register_node("xtraores:block_chromium", {
-		description = "" ..core.colorize("#68fff6", "chromium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
+		description = "" ..core.colorize("#68fff6", "Chromium block\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material"),
 	tiles = {"xtraores_block_chromium.png"},
 	paramtype2 = "facedir",
 	place_param2 = 0,
@@ -855,7 +855,7 @@ core.register_craft({
 	}
 })
 core.register_node("xtraores:decobrick_chromium", {
-		description = "" ..core.colorize("#68fff6", "Decorative chromium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
+		description = "" ..core.colorize("#68fff6", "Decorative Chromium brick\n")..core.colorize("#FFFFFF", "Can be placed"),
 	tiles = {"xtraores_decobrick_chromium.png"},
 	is_ground_content = false,
 	stack_max= 999,
