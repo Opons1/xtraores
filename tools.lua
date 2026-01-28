@@ -1,6 +1,6 @@
 -------------------Nickel set-------------------
 
-minetest.register_tool("xtraores:pickaxe_nickel", {
+core.register_tool("xtraores:pickaxe_nickel", {
 		description = "".. core.colorize("#68fff6", "Nickel pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 3\n")..core.colorize("#FFFFFF", "Full punch interval: 1.0\n")..core.colorize("#FFFFFF", "Range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_pickaxe_nickel.png",
 	range = 4.0,
@@ -14,7 +14,7 @@ minetest.register_tool("xtraores:pickaxe_nickel", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_nickel',
 	recipe = {
 		{'xtraores:nickel_bar', 'xtraores:nickel_bar', 'xtraores:nickel_bar'},
@@ -23,7 +23,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shovel_nickel", {
+core.register_tool("xtraores:shovel_nickel", {
 		description = "".. core.colorize("#68fff6", "Nickel shovel\n")..core.colorize("#FFFFFF", "Melee damage: 3\n")..core.colorize("#FFFFFF", "Full punch interval: 1.1\n")..core.colorize("#FFFFFF", "Range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_shovel_nickel.png",
 	range = 4.0,
@@ -37,7 +37,7 @@ minetest.register_tool("xtraores:shovel_nickel", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shovel_nickel',
 	recipe = {
 		{'', 'xtraores:nickel_bar', ''},
@@ -46,7 +46,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_nickel", {
+core.register_tool("xtraores:axe_nickel", {
 		description = "".. core.colorize("#68fff6", "Nickel axe\n")..core.colorize("#FFFFFF", "Melee damage: 4\n")..core.colorize("#FFFFFF", "Full punch interval: 1.0\n")..core.colorize("#FFFFFF", "Range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_axe_nickel.png",
 	range = 4.0,
@@ -60,7 +60,7 @@ minetest.register_tool("xtraores:axe_nickel", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_nickel',
 	recipe = {
 		{'xtraores:nickel_bar', 'xtraores:nickel_bar', ''},
@@ -68,7 +68,7 @@ minetest.register_craft({
 		{'', 'group:stick', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_nickel',
 	recipe = {
 		{'', 'xtraores:nickel_bar', 'xtraores:nickel_bar'},
@@ -77,7 +77,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_nickel", {
+core.register_tool("xtraores:sword_nickel", {
 		description = "".. core.colorize("#68fff6", "Nickel sword\n")..core.colorize("#FFFFFF", "Melee damage: 5\n")..core.colorize("#FFFFFF", "Full punch interval: 0.8\n")..core.colorize("#FFFFFF", "Range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_sword_nickel.png",
 	range = 4.0,
@@ -91,7 +91,7 @@ minetest.register_tool("xtraores:sword_nickel", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_nickel',
 	recipe = {
 		{'', 'xtraores:nickel_bar', ''},
@@ -100,7 +100,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_nickel", {
+core.register_tool("xtraores:shortsword_nickel", {
 		description = "".. core.colorize("#68fff6", "Nickel shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 4\n")..core.colorize("#FFFFFF", "Full punch interval: 0.6\n")..core.colorize("#FFFFFF", "Range: 3.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 1"),
 	inventory_image = "xtraores_shortsword_nickel.png",
 	range = 3.0,
@@ -114,7 +114,7 @@ minetest.register_tool("xtraores:shortsword_nickel", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_nickel',
 	recipe = {
 		{'', '', ''},
@@ -125,7 +125,7 @@ minetest.register_craft({
 
 -------------------Platinum set-------------------
 
-minetest.register_tool("xtraores:pickaxe_platinum", {
+core.register_tool("xtraores:pickaxe_platinum", {
 		description = "".. core.colorize("#68fff6", "Platinum pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.88\n")..core.colorize("#FFFFFF", "Range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_pickaxe_platinum.png",
 	range = 4.2,
@@ -139,7 +139,7 @@ minetest.register_tool("xtraores:pickaxe_platinum", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_platinum',
 	recipe = {
 		{'xtraores:platinum_bar', 'xtraores:platinum_bar', 'xtraores:platinum_bar'},
@@ -148,7 +148,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shovel_platinum", {
+core.register_tool("xtraores:shovel_platinum", {
 		description = "".. core.colorize("#68fff6", "Platinum shovel\n")..core.colorize("#FFFFFF", "Melee damage: 5\n")..core.colorize("#FFFFFF", "Full punch interval: 0.98\n")..core.colorize("#FFFFFF", "Range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_shovel_platinum.png",
 	range = 4.2,
@@ -162,7 +162,7 @@ minetest.register_tool("xtraores:shovel_platinum", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shovel_platinum',
 	recipe = {
 		{'', 'xtraores:platinum_bar', ''},
@@ -171,7 +171,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_platinum", {
+core.register_tool("xtraores:axe_platinum", {
 		description = "".. core.colorize("#68fff6", "Platinum axe\n")..core.colorize("#FFFFFF", "Melee damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.88\n")..core.colorize("#FFFFFF", "Range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_axe_platinum.png",
 	range = 4.2,
@@ -185,7 +185,7 @@ minetest.register_tool("xtraores:axe_platinum", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_platinum',
 	recipe = {
 		{'xtraores:platinum_bar', 'xtraores:platinum_bar', ''},
@@ -193,7 +193,7 @@ minetest.register_craft({
 		{'', 'group:stick', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_platinum',
 	recipe = {
 		{'', 'xtraores:platinum_bar', 'xtraores:platinum_bar'},
@@ -202,7 +202,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_platinum", {
+core.register_tool("xtraores:sword_platinum", {
 		description = "".. core.colorize("#68fff6", "Platinum sword\n")..core.colorize("#FFFFFF", "Melee damage: 7\n")..core.colorize("#FFFFFF", "Full punch interval: 0.68\n")..core.colorize("#FFFFFF", "Range: 4.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_sword_platinum.png",
 	range = 4.2,
@@ -216,7 +216,7 @@ minetest.register_tool("xtraores:sword_platinum", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_platinum',
 	recipe = {
 		{'', 'xtraores:platinum_bar', ''},
@@ -225,7 +225,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_platinum", {
+core.register_tool("xtraores:shortsword_platinum", {
 		description = "".. core.colorize("#68fff6", "Platinum shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 6\n")..core.colorize("#FFFFFF", "Full punch interval: 0.58\n")..core.colorize("#FFFFFF", "Range: 3.1\n")..core.colorize("#FFFFFF", "Xtraores tool level: 2"),
 	inventory_image = "xtraores_shortsword_platinum.png",
 	range = 3.1,
@@ -239,7 +239,7 @@ minetest.register_tool("xtraores:shortsword_platinum", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_platinum',
 	recipe = {
 		{'', '', ''},
@@ -250,7 +250,7 @@ minetest.register_craft({
 
 -------------------Palladium set-------------------
 
-minetest.register_tool("xtraores:pickaxe_palladium", {
+core.register_tool("xtraores:pickaxe_palladium", {
 		description = "".. core.colorize("#68fff6", "Palladium pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.86\n")..core.colorize("#FFFFFF", "Range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_pickaxe_palladium.png",
 	range = 4.4,
@@ -264,7 +264,7 @@ minetest.register_tool("xtraores:pickaxe_palladium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_palladium',
 	recipe = {
 		{'xtraores:palladium_bar', 'xtraores:palladium_bar', 'xtraores:palladium_bar'},
@@ -273,7 +273,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shovel_palladium", {
+core.register_tool("xtraores:shovel_palladium", {
 		description = "".. core.colorize("#68fff6", "Palladium shovel\n")..core.colorize("#FFFFFF", "Melee damage: 7\n")..core.colorize("#FFFFFF", "Full punch interval: 0.96\n")..core.colorize("#FFFFFF", "Range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_shovel_palladium.png",
 	range = 4.4,
@@ -287,7 +287,7 @@ minetest.register_tool("xtraores:shovel_palladium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shovel_palladium',
 	recipe = {
 		{'', 'xtraores:palladium_bar', ''},
@@ -296,7 +296,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_palladium", {
+core.register_tool("xtraores:axe_palladium", {
 		description = "".. core.colorize("#68fff6", "Palladium axe\n")..core.colorize("#FFFFFF", "Melee damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.86\n")..core.colorize("#FFFFFF", "Range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_axe_palladium.png",
 	range = 4.4,
@@ -310,7 +310,7 @@ minetest.register_tool("xtraores:axe_palladium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_palladium',
 	recipe = {
 		{'xtraores:palladium_bar', 'xtraores:palladium_bar', ''},
@@ -318,7 +318,7 @@ minetest.register_craft({
 		{'', 'group:stick', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_palladium',
 	recipe = {
 		{'', 'xtraores:palladium_bar', 'xtraores:palladium_bar'},
@@ -327,7 +327,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_palladium", {
+core.register_tool("xtraores:sword_palladium", {
 		description = "".. core.colorize("#68fff6", "Palladium sword\n")..core.colorize("#FFFFFF", "Melee damage: 9\n")..core.colorize("#FFFFFF", "Full punch interval: 0.66\n")..core.colorize("#FFFFFF", "Range: 4.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_sword_palladium.png",
 	range = 4.4,
@@ -341,7 +341,7 @@ minetest.register_tool("xtraores:sword_palladium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_palladium',
 	recipe = {
 		{'', 'xtraores:palladium_bar', ''},
@@ -350,7 +350,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_palladium", {
+core.register_tool("xtraores:shortsword_palladium", {
 		description = "".. core.colorize("#68fff6", "Palladium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 8\n")..core.colorize("#FFFFFF", "Full punch interval: 0.56\n")..core.colorize("#FFFFFF", "Range: 3.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 3"),
 	inventory_image = "xtraores_shortsword_palladium.png",
 	range = 3.2,
@@ -364,7 +364,7 @@ minetest.register_tool("xtraores:shortsword_palladium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_palladium',
 	recipe = {
 		{'', '', ''},
@@ -375,7 +375,7 @@ minetest.register_craft({
 
 -------------------Cobalt set-------------------
 
-minetest.register_tool("xtraores:pickaxe_cobalt", {
+core.register_tool("xtraores:pickaxe_cobalt", {
 		description = "".. core.colorize("#68fff6", "Cobalt pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "Range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_pickaxe_cobalt.png",
 	range = 4.6,
@@ -389,7 +389,7 @@ minetest.register_tool("xtraores:pickaxe_cobalt", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_cobalt',
 	recipe = {
 		{'xtraores:cobalt_bar', 'xtraores:cobalt_bar', 'xtraores:cobalt_bar'},
@@ -398,7 +398,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shovel_cobalt", {
+core.register_tool("xtraores:shovel_cobalt", {
 		description = "".. core.colorize("#68fff6", "Cobalt shovel\n")..core.colorize("#FFFFFF", "Melee damage: 9\n")..core.colorize("#FFFFFF", "Full punch interval: 0.94\n")..core.colorize("#FFFFFF", "Range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_shovel_cobalt.png",
 	range = 4.6,
@@ -412,7 +412,7 @@ minetest.register_tool("xtraores:shovel_cobalt", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shovel_cobalt',
 	recipe = {
 		{'', 'xtraores:cobalt_bar', ''},
@@ -421,7 +421,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_cobalt", {
+core.register_tool("xtraores:axe_cobalt", {
 		description = "".. core.colorize("#68fff6", "Cobalt axe\n")..core.colorize("#FFFFFF", "Melee damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "Range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_axe_cobalt.png",
 	range = 4.6,
@@ -435,7 +435,7 @@ minetest.register_tool("xtraores:axe_cobalt", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_cobalt',
 	recipe = {
 		{'xtraores:cobalt_bar', 'xtraores:cobalt_bar', ''},
@@ -443,7 +443,7 @@ minetest.register_craft({
 		{'', 'group:stick', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_cobalt',
 	recipe = {
 		{'', 'xtraores:cobalt_bar', 'xtraores:cobalt_bar'},
@@ -452,7 +452,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_cobalt", {
+core.register_tool("xtraores:sword_cobalt", {
 		description = "".. core.colorize("#68fff6", "Cobalt sword\n")..core.colorize("#FFFFFF", "Melee damage: 11\n")..core.colorize("#FFFFFF", "Full punch interval: 0.64\n")..core.colorize("#FFFFFF", "Range: 4.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_sword_cobalt.png",
 	range = 4.6,
@@ -466,7 +466,7 @@ minetest.register_tool("xtraores:sword_cobalt", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_cobalt',
 	recipe = {
 		{'', 'xtraores:cobalt_bar', ''},
@@ -475,7 +475,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_cobalt", {
+core.register_tool("xtraores:shortsword_cobalt", {
 		description = "".. core.colorize("#68fff6", "Cobalt shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 10\n")..core.colorize("#FFFFFF", "Full punch interval: 0.54\n")..core.colorize("#FFFFFF", "Range: 3.3\n")..core.colorize("#FFFFFF", "Xtraores tool level: 4"),
 	inventory_image = "xtraores_shortsword_cobalt.png",
 	range = 3.3,
@@ -489,7 +489,7 @@ minetest.register_tool("xtraores:shortsword_cobalt", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_cobalt',
 	recipe = {
 		{'', '', ''},
@@ -500,7 +500,7 @@ minetest.register_craft({
 
 -------------------Thorium set-------------------
 
-minetest.register_tool("xtraores:pickaxe_thorium", {
+core.register_tool("xtraores:pickaxe_thorium", {
 		description = "".. core.colorize("#68fff6", "Thorium pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.82\n")..core.colorize("#FFFFFF", "Range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_pickaxe_thorium.png",
 	range = 4.8,
@@ -516,7 +516,7 @@ minetest.register_tool("xtraores:pickaxe_thorium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_thorium',
 	recipe = {
 		{'xtraores:thorium_bar', 'xtraores:thorium_bar', 'xtraores:thorium_bar'},
@@ -525,7 +525,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_thorium", {
+core.register_tool("xtraores:axe_thorium", {
 		description = "".. core.colorize("#68fff6", "Thorium axe\n")..core.colorize("#FFFFFF", "Melee damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.82\n")..core.colorize("#FFFFFF", "Range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_axe_thorium.png",
 	range = 4.8,
@@ -539,7 +539,7 @@ minetest.register_tool("xtraores:axe_thorium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_thorium',
 	recipe = {
 		{'xtraores:thorium_bar', 'xtraores:thorium_bar', ''},
@@ -547,7 +547,7 @@ minetest.register_craft({
 		{'', 'xtraores:steel_handle', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_thorium',
 	recipe = {
 		{'', 'xtraores:thorium_bar', 'xtraores:thorium_bar'},
@@ -556,7 +556,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_thorium", {
+core.register_tool("xtraores:sword_thorium", {
 		description = "".. core.colorize("#68fff6", "Thorium sword\n")..core.colorize("#FFFFFF", "Melee damage: 13\n")..core.colorize("#FFFFFF", "Full punch interval: 0.62\n")..core.colorize("#FFFFFF", "Range: 4.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_sword_thorium.png",
 	range = 4.8,
@@ -570,7 +570,7 @@ minetest.register_tool("xtraores:sword_thorium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_thorium',
 	recipe = {
 		{'', 'xtraores:thorium_bar', ''},
@@ -579,7 +579,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:spear_thorium", {
+core.register_tool("xtraores:spear_thorium", {
 		description = "".. core.colorize("#68fff6", "Thorium spear\n")..core.colorize("#FFFFFF", "Melee damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.93\n")..core.colorize("#FFFFFF", "Range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_spear_thorium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
@@ -595,7 +595,7 @@ minetest.register_tool("xtraores:spear_thorium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:spear_thorium',
 	recipe = {
 		{'', 'xtraores:thorium_bar', 'xtraores:thorium_bar'},
@@ -604,7 +604,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_thorium", {
+core.register_tool("xtraores:shortsword_thorium", {
 		description = "".. core.colorize("#68fff6", "Thorium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 12\n")..core.colorize("#FFFFFF", "Full punch interval: 0.52\n")..core.colorize("#FFFFFF", "Range: 3.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 5"),
 	inventory_image = "xtraores_shortsword_thorium.png",
 	range = 3.4,
@@ -618,7 +618,7 @@ minetest.register_tool("xtraores:shortsword_thorium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_thorium',
 	recipe = {
 		{'', '', ''},
@@ -629,7 +629,7 @@ minetest.register_craft({
 
 -------------------Osmium set-------------------
 
-minetest.register_tool("xtraores:pickaxe_osmium", {
+core.register_tool("xtraores:pickaxe_osmium", {
 		description = "".. core.colorize("#68fff6", "Osmium pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.80\n")..core.colorize("#FFFFFF", "Range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_pickaxe_osmium.png",
 	range = 5.0,
@@ -645,7 +645,7 @@ minetest.register_tool("xtraores:pickaxe_osmium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_osmium',
 	recipe = {
 		{'xtraores:osmium_bar', 'xtraores:osmium_bar', 'xtraores:osmium_bar'},
@@ -654,7 +654,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_osmium", {
+core.register_tool("xtraores:axe_osmium", {
 		description = "".. core.colorize("#68fff6", "Osmium axe\n")..core.colorize("#FFFFFF", "Melee damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.80\n")..core.colorize("#FFFFFF", "Range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_axe_osmium.png",
 	range = 5.0,
@@ -668,7 +668,7 @@ minetest.register_tool("xtraores:axe_osmium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_osmium',
 	recipe = {
 		{'xtraores:osmium_bar', 'xtraores:osmium_bar', ''},
@@ -676,7 +676,7 @@ minetest.register_craft({
 		{'', 'xtraores:steel_handle', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_osmium',
 	recipe = {
 		{'', 'xtraores:osmium_bar', 'xtraores:osmium_bar'},
@@ -685,7 +685,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_osmium", {
+core.register_tool("xtraores:sword_osmium", {
 		description = "".. core.colorize("#68fff6", "Osmium sword\n")..core.colorize("#FFFFFF", "Melee damage: 15\n")..core.colorize("#FFFFFF", "Full punch interval: 0.60\n")..core.colorize("#FFFFFF", "Range: 5.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_sword_osmium.png",
 	range = 5.0,
@@ -699,7 +699,7 @@ minetest.register_tool("xtraores:sword_osmium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_osmium',
 	recipe = {
 		{'', 'xtraores:osmium_bar', ''},
@@ -708,7 +708,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:spear_osmium", {
+core.register_tool("xtraores:spear_osmium", {
 		description = "".. core.colorize("#68fff6", "Osmium spear\n")..core.colorize("#FFFFFF", "Melee damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.90\n")..core.colorize("#FFFFFF", "Range: 6.3\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_spear_osmium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
@@ -724,7 +724,7 @@ minetest.register_tool("xtraores:spear_osmium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:spear_osmium',
 	recipe = {
 		{'', 'xtraores:osmium_bar', 'xtraores:osmium_bar'},
@@ -733,7 +733,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_osmium", {
+core.register_tool("xtraores:shortsword_osmium", {
 		description = "".. core.colorize("#68fff6", "Osmium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 14\n")..core.colorize("#FFFFFF", "Full punch interval: 0.50\n")..core.colorize("#FFFFFF", "Range: 3.5\n")..core.colorize("#FFFFFF", "Xtraores tool level: 6"),
 	inventory_image = "xtraores_shortsword_osmium.png",
 	range = 3.5,
@@ -747,7 +747,7 @@ minetest.register_tool("xtraores:shortsword_osmium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_osmium',
 	recipe = {
 		{'', '', ''},
@@ -758,7 +758,7 @@ minetest.register_craft({
 
 -------------------Rhenium set-------------------
 
-minetest.register_tool("xtraores:pickaxe_rhenium", {
+core.register_tool("xtraores:pickaxe_rhenium", {
 		description = "".. core.colorize("#68fff6", "Rhenium pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "Range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_pickaxe_rhenium.png",
 	range = 5.2,
@@ -774,7 +774,7 @@ minetest.register_tool("xtraores:pickaxe_rhenium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_rhenium',
 	recipe = {
 		{'xtraores:rhenium_bar', 'xtraores:rhenium_bar', 'xtraores:rhenium_bar'},
@@ -783,7 +783,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_rhenium", {
+core.register_tool("xtraores:axe_rhenium", {
 		description = "".. core.colorize("#68fff6", "Rhenium axe\n")..core.colorize("#FFFFFF", "Melee damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "Range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_axe_rhenium.png",
 	range = 5.2,
@@ -797,7 +797,7 @@ minetest.register_tool("xtraores:axe_rhenium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_rhenium',
 	recipe = {
 		{'xtraores:rhenium_bar', 'xtraores:rhenium_bar', ''},
@@ -805,7 +805,7 @@ minetest.register_craft({
 		{'', 'xtraores:steel_handle', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_rhenium',
 	recipe = {
 		{'', 'xtraores:rhenium_bar', 'xtraores:rhenium_bar'},
@@ -814,7 +814,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_rhenium", {
+core.register_tool("xtraores:sword_rhenium", {
 		description = "".. core.colorize("#68fff6", "Rhenium sword\n")..core.colorize("#FFFFFF", "Melee damage: 17\n")..core.colorize("#FFFFFF", "Full punch interval: 0.58\n")..core.colorize("#FFFFFF", "Range: 5.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_sword_rhenium.png",
 	range = 5.2,
@@ -828,7 +828,7 @@ minetest.register_tool("xtraores:sword_rhenium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_rhenium',
 	recipe = {
 		{'', 'xtraores:rhenium_bar', ''},
@@ -837,7 +837,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:spear_rhenium", {
+core.register_tool("xtraores:spear_rhenium", {
 		description = "".. core.colorize("#68fff6", "Rhenium spear\n")..core.colorize("#FFFFFF", "Melee damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.87\n")..core.colorize("#FFFFFF", "Range: 6.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_spear_rhenium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
@@ -853,7 +853,7 @@ minetest.register_tool("xtraores:spear_rhenium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:spear_rhenium',
 	recipe = {
 		{'', 'xtraores:rhenium_bar', 'xtraores:rhenium_bar'},
@@ -862,7 +862,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_rhenium", {
+core.register_tool("xtraores:shortsword_rhenium", {
 		description = "".. core.colorize("#68fff6", "Rhenium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 16\n")..core.colorize("#FFFFFF", "Full punch interval: 0.48\n")..core.colorize("#FFFFFF", "Range: 3.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 7"),
 	inventory_image = "xtraores_shortsword_rhenium.png",
 	range = 3.6,
@@ -876,7 +876,7 @@ minetest.register_tool("xtraores:shortsword_rhenium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_rhenium',
 	recipe = {
 		{'', '', ''},
@@ -887,7 +887,7 @@ minetest.register_craft({
 
 -------------------Vanadium set-------------------
 
-minetest.register_tool("xtraores:pickaxe_vanadium", {
+core.register_tool("xtraores:pickaxe_vanadium", {
 		description = "".. core.colorize("#68fff6", "Vanadium pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "Range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_pickaxe_vanadium.png",
 	range = 5.4,
@@ -903,7 +903,7 @@ minetest.register_tool("xtraores:pickaxe_vanadium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_vanadium',
 	recipe = {
 		{'xtraores:vanadium_bar', 'xtraores:vanadium_bar', 'xtraores:vanadium_bar'},
@@ -912,7 +912,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_vanadium", {
+core.register_tool("xtraores:axe_vanadium", {
 		description = "".. core.colorize("#68fff6", "Vanadium axe\n")..core.colorize("#FFFFFF", "Melee damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "Range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_axe_vanadium.png",
 	range = 5.4,
@@ -926,7 +926,7 @@ minetest.register_tool("xtraores:axe_vanadium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_vanadium',
 	recipe = {
 		{'xtraores:vanadium_bar', 'xtraores:vanadium_bar', ''},
@@ -934,7 +934,7 @@ minetest.register_craft({
 		{'', 'xtraores:steel_handle', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_vanadium',
 	recipe = {
 		{'', 'xtraores:vanadium_bar', 'xtraores:vanadium_bar'},
@@ -943,7 +943,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_vanadium", {
+core.register_tool("xtraores:sword_vanadium", {
 		description = "".. core.colorize("#68fff6", "Vanadium sword\n")..core.colorize("#FFFFFF", "Melee damage: 19\n")..core.colorize("#FFFFFF", "Full punch interval: 0.56\n")..core.colorize("#FFFFFF", "Range: 5.4\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_sword_vanadium.png",
 	range = 5.4,
@@ -957,7 +957,7 @@ minetest.register_tool("xtraores:sword_vanadium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_vanadium',
 	recipe = {
 		{'', 'xtraores:vanadium_bar', ''},
@@ -966,7 +966,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:spear_vanadium", {
+core.register_tool("xtraores:spear_vanadium", {
 		description = "".. core.colorize("#68fff6", "Vanadium spear\n")..core.colorize("#FFFFFF", "Melee damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.84\n")..core.colorize("#FFFFFF", "Range: 6.85\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_spear_vanadium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
@@ -982,7 +982,7 @@ minetest.register_tool("xtraores:spear_vanadium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:spear_vanadium',
 	recipe = {
 		{'', 'xtraores:vanadium_bar', 'xtraores:vanadium_bar'},
@@ -991,7 +991,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_vanadium", {
+core.register_tool("xtraores:shortsword_vanadium", {
 		description = "".. core.colorize("#68fff6", "Vanadium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 18\n")..core.colorize("#FFFFFF", "Full punch interval: 0.46\n")..core.colorize("#FFFFFF", "Range: 3.7\n")..core.colorize("#FFFFFF", "Xtraores tool level: 8"),
 	inventory_image = "xtraores_shortsword_vanadium.png",
 	range = 3.7,
@@ -1005,7 +1005,7 @@ minetest.register_tool("xtraores:shortsword_vanadium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_vanadium',
 	recipe = {
 		{'', '', ''},
@@ -1016,7 +1016,7 @@ minetest.register_craft({
 
 -------------------Rarium set-------------------
 
-minetest.register_tool("xtraores:pickaxe_rarium", {
+core.register_tool("xtraores:pickaxe_rarium", {
 		description = "".. core.colorize("#68fff6", "Rarium pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.74\n")..core.colorize("#FFFFFF", "Range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_pickaxe_rarium.png",
 	range = 5.6,
@@ -1032,7 +1032,7 @@ minetest.register_tool("xtraores:pickaxe_rarium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_rarium',
 	recipe = {
 		{'xtraores:rarium_bar', 'xtraores:rarium_bar', 'xtraores:rarium_bar'},
@@ -1041,7 +1041,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_rarium", {
+core.register_tool("xtraores:axe_rarium", {
 		description = "".. core.colorize("#68fff6", "Rarium axe\n")..core.colorize("#FFFFFF", "Melee damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.74\n")..core.colorize("#FFFFFF", "Range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_axe_rarium.png",
 	range = 5.6,
@@ -1055,7 +1055,7 @@ minetest.register_tool("xtraores:axe_rarium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_rarium',
 	recipe = {
 		{'xtraores:rarium_bar', 'xtraores:rarium_bar', ''},
@@ -1063,7 +1063,7 @@ minetest.register_craft({
 		{'', 'xtraores:duraglass_handle', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_rarium',
 	recipe = {
 		{'', 'xtraores:rarium_bar', 'xtraores:rarium_bar'},
@@ -1072,7 +1072,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_rarium", {
+core.register_tool("xtraores:sword_rarium", {
 		description = "".. core.colorize("#68fff6", "Rarium sword\n")..core.colorize("#FFFFFF", "Melee damage: 21\n")..core.colorize("#FFFFFF", "Full punch interval: 0.54\n")..core.colorize("#FFFFFF", "Range: 5.6\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_sword_rarium.png",
 	range = 5.6,
@@ -1086,7 +1086,7 @@ minetest.register_tool("xtraores:sword_rarium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_rarium',
 	recipe = {
 		{'', 'xtraores:rarium_bar', ''},
@@ -1095,7 +1095,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:spear_rarium", {
+core.register_tool("xtraores:spear_rarium", {
 		description = "".. core.colorize("#68fff6", "Rarium spear\n")..core.colorize("#FFFFFF", "Melee damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.81\n")..core.colorize("#FFFFFF", "Range: 7.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_spear_rarium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
@@ -1111,7 +1111,7 @@ minetest.register_tool("xtraores:spear_rarium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:spear_rarium',
 	recipe = {
 		{'', 'xtraores:rarium_bar', 'xtraores:rarium_bar'},
@@ -1120,7 +1120,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_rarium", {
+core.register_tool("xtraores:shortsword_rarium", {
 		description = "".. core.colorize("#68fff6", "Rarium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 20\n")..core.colorize("#FFFFFF", "Full punch interval: 0.44\n")..core.colorize("#FFFFFF", "Range: 3.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 9"),
 	inventory_image = "xtraores_shortsword_rarium.png",
 	range = 3.8,
@@ -1134,7 +1134,7 @@ minetest.register_tool("xtraores:shortsword_rarium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_rarium',
 	recipe = {
 		{'', '', ''},
@@ -1145,7 +1145,7 @@ minetest.register_craft({
 
 -------------------orichalcum set-------------------
 
-minetest.register_tool("xtraores:pickaxe_orichalcum", {
+core.register_tool("xtraores:pickaxe_orichalcum", {
 		description = "".. core.colorize("#68fff6", "Orichalcum pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.72\n")..core.colorize("#FFFFFF", "Range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_pickaxe_orichalcum.png",
 	range = 5.8,
@@ -1161,7 +1161,7 @@ minetest.register_tool("xtraores:pickaxe_orichalcum", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_orichalcum',
 	recipe = {
 		{'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar'},
@@ -1170,7 +1170,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_orichalcum", {
+core.register_tool("xtraores:axe_orichalcum", {
 		description = "".. core.colorize("#68fff6", "Orichalcum axe\n")..core.colorize("#FFFFFF", "Melee damage: 22\n")..core.colorize("#FFFFFF", "Full punch interval: 0.72\n")..core.colorize("#FFFFFF", "Range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_axe_orichalcum.png",
 	range = 5.8,
@@ -1184,7 +1184,7 @@ minetest.register_tool("xtraores:axe_orichalcum", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_orichalcum',
 	recipe = {
 		{'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar', ''},
@@ -1192,7 +1192,7 @@ minetest.register_craft({
 		{'', 'xtraores:duraglass_handle', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_orichalcum',
 	recipe = {
 		{'', 'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar'},
@@ -1201,7 +1201,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_orichalcum", {
+core.register_tool("xtraores:sword_orichalcum", {
 		description = "".. core.colorize("#68fff6", "Orichalcum sword\n")..core.colorize("#FFFFFF", "Melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.52\n")..core.colorize("#FFFFFF", "Range: 5.8\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_sword_orichalcum.png",
 	range = 5.8,
@@ -1215,7 +1215,7 @@ minetest.register_tool("xtraores:sword_orichalcum", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_orichalcum',
 	recipe = {
 		{'', 'xtraores:orichalcum_bar', ''},
@@ -1224,7 +1224,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:spear_orichalcum", {
+core.register_tool("xtraores:spear_orichalcum", {
 		description = "".. core.colorize("#68fff6", "Orichalcum spear\n")..core.colorize("#FFFFFF", "Melee damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.78\n")..core.colorize("#FFFFFF", "Range: 7.2\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_spear_orichalcum.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
@@ -1240,7 +1240,7 @@ minetest.register_tool("xtraores:spear_orichalcum", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:spear_orichalcum',
 	recipe = {
 		{'', 'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar'},
@@ -1249,7 +1249,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_orichalcum", {
+core.register_tool("xtraores:shortsword_orichalcum", {
 		description = "".. core.colorize("#68fff6", "Orichalcum shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.42\n")..core.colorize("#FFFFFF", "Range: 3.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 10"),
 	inventory_image = "xtraores_shortsword_orichalcum.png",
 	range = 3.9,
@@ -1263,7 +1263,7 @@ minetest.register_tool("xtraores:shortsword_orichalcum", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_orichalcum',
 	recipe = {
 		{'', '', ''},
@@ -1275,7 +1275,7 @@ minetest.register_craft({
 
 -------------------Titanium set-------------------
 
-minetest.register_tool("xtraores:pickaxe_titanium", {
+core.register_tool("xtraores:pickaxe_titanium", {
 		description = "".. core.colorize("#68fff6", "Titanium pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.70\n")..core.colorize("#FFFFFF", "Range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_pickaxe_titanium.png",
 	range = 5.9,
@@ -1291,7 +1291,7 @@ minetest.register_tool("xtraores:pickaxe_titanium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_titanium',
 	recipe = {
 		{'xtraores:titanium_bar', 'xtraores:titanium_bar', 'xtraores:titanium_bar'},
@@ -1300,7 +1300,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_titanium", {
+core.register_tool("xtraores:axe_titanium", {
 		description = "".. core.colorize("#68fff6", "Titanium axe\n")..core.colorize("#FFFFFF", "Melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.70\n")..core.colorize("#FFFFFF", "Range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_axe_titanium.png",
 	range = 5.9,
@@ -1314,7 +1314,7 @@ minetest.register_tool("xtraores:axe_titanium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_titanium',
 	recipe = {
 		{'xtraores:titanium_bar', 'xtraores:titanium_bar', ''},
@@ -1322,7 +1322,7 @@ minetest.register_craft({
 		{'', 'xtraores:duraglass_handle', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_titanium',
 	recipe = {
 		{'', 'xtraores:titanium_bar', 'xtraores:titanium_bar'},
@@ -1331,7 +1331,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_titanium", {
+core.register_tool("xtraores:sword_titanium", {
 		description = "".. core.colorize("#68fff6", "Titanium sword\n")..core.colorize("#FFFFFF", "Melee damage: 25\n")..core.colorize("#FFFFFF", "Full punch interval: 0.50\n")..core.colorize("#FFFFFF", "Range: 5.9\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_sword_titanium.png",
 	range = 5.9,
@@ -1345,7 +1345,7 @@ minetest.register_tool("xtraores:sword_titanium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_titanium',
 	recipe = {
 		{'', 'xtraores:titanium_bar', ''},
@@ -1354,7 +1354,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:spear_titanium", {
+core.register_tool("xtraores:spear_titanium", {
 		description = "".. core.colorize("#68fff6", "Titanium spear\n")..core.colorize("#FFFFFF", "Melee damage: 26\n")..core.colorize("#FFFFFF", "Full punch interval: 0.76\n")..core.colorize("#FFFFFF", "Range: 7.35\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_spear_titanium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
@@ -1370,7 +1370,7 @@ minetest.register_tool("xtraores:spear_titanium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:spear_titanium',
 	recipe = {
 		{'', 'xtraores:titanium_bar', 'xtraores:titanium_bar'},
@@ -1379,7 +1379,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_titanium", {
+core.register_tool("xtraores:shortsword_titanium", {
 		description = "".. core.colorize("#68fff6", "Titanium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 23\n")..core.colorize("#FFFFFF", "Full punch interval: 0.40\n")..core.colorize("#FFFFFF", "Range: 3.95\n")..core.colorize("#FFFFFF", "Xtraores tool level: 11"),
 	inventory_image = "xtraores_shortsword_titanium.png",
 	range = 3.95,
@@ -1393,7 +1393,7 @@ minetest.register_tool("xtraores:shortsword_titanium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_titanium',
 	recipe = {
 		{'', '', ''},
@@ -1404,7 +1404,7 @@ minetest.register_craft({
 
 -------------------Chromium set-------------------
 
-minetest.register_tool("xtraores:pickaxe_chromium", {
+core.register_tool("xtraores:pickaxe_chromium", {
 		description = "".. core.colorize("#68fff6", "Chromium pickaxe\n")..core.colorize("#FFFFFF", "Melee damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.69\n")..core.colorize("#FFFFFF", "Range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_pickaxe_chromium.png",
 	range = 6.0,
@@ -1420,7 +1420,7 @@ minetest.register_tool("xtraores:pickaxe_chromium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:pickaxe_chromium',
 	recipe = {
 		{'xtraores:chromium_bar', 'xtraores:chromium_bar', 'xtraores:chromium_bar'},
@@ -1429,7 +1429,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:axe_chromium", {
+core.register_tool("xtraores:axe_chromium", {
 		description = "".. core.colorize("#68fff6", "Chromium axe\n")..core.colorize("#FFFFFF", "Melee damage: 24\n")..core.colorize("#FFFFFF", "Full punch interval: 0.69\n")..core.colorize("#FFFFFF", "Range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_axe_chromium.png",
 	range = 6.0,
@@ -1443,7 +1443,7 @@ minetest.register_tool("xtraores:axe_chromium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_chromium',
 	recipe = {
 		{'xtraores:chromium_bar', 'xtraores:chromium_bar', ''},
@@ -1451,7 +1451,7 @@ minetest.register_craft({
 		{'', 'xtraores:duraglass_handle', ''},
 	}
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:axe_chromium',
 	recipe = {
 		{'', 'xtraores:chromium_bar', 'xtraores:chromium_bar'},
@@ -1460,7 +1460,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:sword_chromium", {
+core.register_tool("xtraores:sword_chromium", {
 		description = "".. core.colorize("#68fff6", "Chromium sword\n")..core.colorize("#FFFFFF", "Melee damage: 27\n")..core.colorize("#FFFFFF", "Full punch interval: 0.48\n")..core.colorize("#FFFFFF", "Range: 6.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_sword_chromium.png",
 	range = 6.0,
@@ -1474,7 +1474,7 @@ minetest.register_tool("xtraores:sword_chromium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:sword_chromium',
 	recipe = {
 		{'', 'xtraores:chromium_bar', ''},
@@ -1483,7 +1483,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:spear_chromium", {
+core.register_tool("xtraores:spear_chromium", {
 		description = "".. core.colorize("#68fff6", "Chromium spear\n")..core.colorize("#FFFFFF", "Melee damage: 29\n")..core.colorize("#FFFFFF", "Full punch interval: 0.75\n")..core.colorize("#FFFFFF", "Range: 7.5\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_spear_chromium.png",
 	wield_scale = {x=2.0,y=2.0,z=1.0},
@@ -1499,7 +1499,7 @@ minetest.register_tool("xtraores:spear_chromium", {
 	sound = {breaks = "default_tool_breaks"},
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:spear_chromium',
 	recipe = {
 		{'', 'xtraores:chromium_bar', 'xtraores:chromium_bar'},
@@ -1508,7 +1508,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_tool("xtraores:shortsword_chromium", {
+core.register_tool("xtraores:shortsword_chromium", {
 		description = "".. core.colorize("#68fff6", "Chromium shortsword\n")..core.colorize("#FFFFFF", "Melee damage: 25\n")..core.colorize("#FFFFFF", "Full punch interval: 0.38\n")..core.colorize("#FFFFFF", "Range: 4.0\n")..core.colorize("#FFFFFF", "Xtraores tool level: 12"),
 	inventory_image = "xtraores_shortsword_chromium.png",
 	range = 4.0,
@@ -1522,7 +1522,7 @@ minetest.register_tool("xtraores:shortsword_chromium", {
 	},
 	sound = {breaks = "default_tool_breaks"},
 })
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shortsword_chromium',
 	recipe = {
 		{'', '', ''},

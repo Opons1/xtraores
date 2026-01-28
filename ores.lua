@@ -2,7 +2,7 @@
 
 ---------------------nickel---------------------
 
-minetest.register_node("xtraores:nickel_ore", {
+core.register_node("xtraores:nickel_ore", {
 		description = "" ..core.colorize("#68fff6", "Nickel ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 1"),
 	tiles = {"default_stone.png^xtraores_nickel_ore.png"},
 	inventory_image = "xtraores_nickel_lump.png",
@@ -11,7 +11,7 @@ minetest.register_node("xtraores:nickel_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:nickel_ore",
 		wherein        = "default:stone",
@@ -22,7 +22,7 @@ minetest.register_node("xtraores:nickel_ore", {
 		y_max          = 100,
 	})
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:nickel_ore",
 		wherein        = "default:stone",
@@ -33,7 +33,7 @@ minetest.register_node("xtraores:nickel_ore", {
 		y_max          = -1,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 2,
 	output = "xtraores:nickel_bar",
@@ -42,7 +42,7 @@ minetest.register_craft({
 
 ---------------------platinum---------------------
 
-minetest.register_node("xtraores:platinum_ore", {
+core.register_node("xtraores:platinum_ore", {
 		description = "" ..core.colorize("#68fff6", "Platinum ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 2"),
 	tiles = {"default_stone.png^xtraores_platinum_ore.png"},
 	inventory_image = "xtraores_platinum_lump.png",
@@ -51,7 +51,7 @@ minetest.register_node("xtraores:platinum_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:platinum_ore",
 		wherein        = "default:stone",
@@ -62,7 +62,7 @@ minetest.register_node("xtraores:platinum_ore", {
 		y_max          = -85,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 5,
 	output = "xtraores:platinum_bar",
@@ -71,7 +71,7 @@ minetest.register_craft({
 
 ---------------------palladium---------------------
 
-minetest.register_node("xtraores:palladium_ore", {
+core.register_node("xtraores:palladium_ore", {
 		description = "" ..core.colorize("#68fff6", "palladium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 3"),
 	tiles = {"default_stone.png^xtraores_palladium_ore.png"},
 	inventory_image = "xtraores_palladium_lump.png",
@@ -80,7 +80,7 @@ minetest.register_node("xtraores:palladium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:palladium_ore",
 		wherein        = "default:stone",
@@ -91,7 +91,7 @@ minetest.register_node("xtraores:palladium_ore", {
 		y_max          = -250,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 12,
 	output = "xtraores:palladium_bar",
@@ -100,7 +100,7 @@ minetest.register_craft({
 
 ---------------------cobalt---------------------
 
-minetest.register_node("xtraores:cobalt_ore", {
+core.register_node("xtraores:cobalt_ore", {
 		description = "" ..core.colorize("#68fff6", "Cobalt ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 4"),
 	tiles = {"default_stone.png^xtraores_cobalt_ore.png"},
 	inventory_image = "xtraores_cobalt_lump.png",
@@ -109,7 +109,7 @@ minetest.register_node("xtraores:cobalt_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:cobalt_ore",
 		wherein        = "default:stone",
@@ -120,7 +120,7 @@ minetest.register_node("xtraores:cobalt_ore", {
 		y_max          = -600,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 20,
 	output = "xtraores:cobalt_bar",
@@ -129,7 +129,7 @@ minetest.register_craft({
 
 ---------------------thorium---------------------
 
-minetest.register_node("xtraores:thorium_ore", {
+core.register_node("xtraores:thorium_ore", {
 		description = "" ..core.colorize("#68fff6", "Thorium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 5"),
 	tiles = {"default_stone.png^xtraores_thorium_ore.png"},
 	inventory_image = "xtraores_thorium_lump.png",
@@ -139,7 +139,7 @@ minetest.register_node("xtraores:thorium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:thorium_ore",
 		wherein        = "default:stone",
@@ -150,7 +150,7 @@ minetest.register_node("xtraores:thorium_ore", {
 		y_max          = -1250,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 32,
 	output = "xtraores:thorium_bar",
@@ -159,7 +159,7 @@ minetest.register_craft({
 
 -----------------antracite ore--------------
 
-minetest.register_node("xtraores:antracite_ore", {
+core.register_node("xtraores:antracite_ore", {
 		description = "" ..core.colorize("#68fff6", "antracite\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 5"),
 	tiles = {"default_stone.png^xtraores_antracite_ore.png"},
 	inventory_image = "xtraores_antracite_lump.png",
@@ -169,7 +169,7 @@ minetest.register_node("xtraores:antracite_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:antracite_ore",
 		wherein        = "default:stone",
@@ -180,7 +180,7 @@ minetest.register_node("xtraores:antracite_ore", {
 		y_max          = -2000,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:antracite_torch 5',
 	recipe = {
 		{'', '', ''},
@@ -189,7 +189,7 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_craft({
+core.register_craft({
 	type = "fuel",
 	recipe = "xtraores:antracite_ore",
 	burntime = 164,
@@ -197,7 +197,7 @@ minetest.register_craft({
 
 ---------------------osmium---------------------
 
-minetest.register_node("xtraores:osmium_ore", {
+core.register_node("xtraores:osmium_ore", {
 		description = "" ..core.colorize("#68fff6", "Osmium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 6"),
 	tiles = {"default_stone.png^xtraores_osmium_ore.png"},
 	inventory_image = "xtraores_osmium_lump.png",
@@ -207,7 +207,7 @@ minetest.register_node("xtraores:osmium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:osmium_ore",
 		wherein        = "default:stone",
@@ -218,7 +218,7 @@ minetest.register_node("xtraores:osmium_ore", {
 		y_max          = -3500,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 45,
 	output = "xtraores:osmium_bar",
@@ -227,7 +227,7 @@ minetest.register_craft({
 
 ---------------------rhenium---------------------
 
-minetest.register_node("xtraores:rhenium_ore", {
+core.register_node("xtraores:rhenium_ore", {
 		description = "" ..core.colorize("#68fff6", "Rhenium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 7"),
 	tiles = {"default_stone.png^xtraores_rhenium_ore.png"},
 	inventory_image = "xtraores_rhenium_lump.png",
@@ -237,7 +237,7 @@ minetest.register_node("xtraores:rhenium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:rhenium_ore",
 		wherein        = "default:stone",
@@ -248,7 +248,7 @@ minetest.register_node("xtraores:rhenium_ore", {
 		y_max          = -5750,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 60,
 	output = "xtraores:rhenium_bar",
@@ -257,7 +257,7 @@ minetest.register_craft({
 
 ---------------------vanadium---------------------
 
-minetest.register_node("xtraores:vanadium_ore", {
+core.register_node("xtraores:vanadium_ore", {
 		description = "" ..core.colorize("#68fff6", "vanadium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 8"),
 	tiles = {"default_stone.png^xtraores_vanadium_ore.png"},
 	inventory_image = "xtraores_vanadium_lump.png",
@@ -267,7 +267,7 @@ minetest.register_node("xtraores:vanadium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:vanadium_ore",
 		wherein        = "default:stone",
@@ -278,7 +278,7 @@ minetest.register_node("xtraores:vanadium_ore", {
 		y_max          = -8000,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 75,
 	output = "xtraores:vanadium_bar",
@@ -287,7 +287,7 @@ minetest.register_craft({
 
 ---------------------rarium---------------------
 
-minetest.register_node("xtraores:rarium_ore", {
+core.register_node("xtraores:rarium_ore", {
 		description = "" ..core.colorize("#68fff6", "Rarium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 9"),
 	tiles = {{
 		    name = "xtraores_rarium_ore.png",
@@ -301,7 +301,7 @@ minetest.register_node("xtraores:rarium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:rarium_ore",
 		wherein        = "default:stone",
@@ -312,7 +312,7 @@ minetest.register_node("xtraores:rarium_ore", {
 		y_max          = -10000,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 90,
 	output = "xtraores:rarium_bar",
@@ -321,7 +321,7 @@ minetest.register_craft({
 
 ---------------------orichalcum---------------------
 
-minetest.register_node("xtraores:orichalcum_ore", {
+core.register_node("xtraores:orichalcum_ore", {
 		description = "" ..core.colorize("#68fff6", "Orichalcum ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 10"),
 	tiles = {"default_stone.png^xtraores_orichalcum_ore.png"},
 	inventory_image = "xtraores_orichalcum_lump.png",
@@ -331,7 +331,7 @@ minetest.register_node("xtraores:orichalcum_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:orichalcum_ore",
 		wherein        = "default:stone",
@@ -342,7 +342,7 @@ minetest.register_node("xtraores:orichalcum_ore", {
 		y_max          = -12500,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 120,
 	output = "xtraores:orichalcum_bar",
@@ -351,7 +351,7 @@ minetest.register_craft({
 
 ---------------------titanium---------------------
 
-minetest.register_node("xtraores:titanium_ore", {
+core.register_node("xtraores:titanium_ore", {
 		description = "" ..core.colorize("#68fff6", "titanium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 11"),
 	tiles = {"default_stone.png^xtraores_titanium_ore.png"},
 	inventory_image = "xtraores_titanium_lump.png",
@@ -361,7 +361,7 @@ minetest.register_node("xtraores:titanium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:titanium_ore",
 		wherein        = "default:stone",
@@ -372,7 +372,7 @@ minetest.register_node("xtraores:titanium_ore", {
 		y_max          = -15000,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 145,
 	output = "xtraores:titanium_bar",
@@ -381,7 +381,7 @@ minetest.register_craft({
 
 ---------------------uranium---------------------
 
-minetest.register_node("xtraores:uranium_ore", {
+core.register_node("xtraores:uranium_ore", {
 		description = "" ..core.colorize("#68fff6", "uranium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 11"),
 	tiles = {{
 		    name = "xtraores_uranium_ore.png",
@@ -395,7 +395,7 @@ minetest.register_node("xtraores:uranium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:uranium_ore",
 		wherein        = "default:stone",
@@ -406,7 +406,7 @@ minetest.register_node("xtraores:uranium_ore", {
 		y_max          = -15000,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 145,
 	output = "xtraores:uranium_bar",
@@ -415,7 +415,7 @@ minetest.register_craft({
 
 ---------------------chromium---------------------
 
-minetest.register_node("xtraores:chromium_ore", {
+core.register_node("xtraores:chromium_ore", {
 		description = "" ..core.colorize("#68fff6", "chromium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 12"),
 	tiles = {"default_stone.png^xtraores_chromium_ore.png"},
 	inventory_image = "xtraores_chromium_lump.png",
@@ -425,7 +425,7 @@ minetest.register_node("xtraores:chromium_ore", {
 	sounds = default.node_sound_stone_defaults(),
 })
 
-	minetest.register_ore({
+	core.register_ore({
 		ore_type       = "scatter",
 		ore            = "xtraores:chromium_ore",
 		wherein        = "default:stone",
@@ -436,7 +436,7 @@ minetest.register_node("xtraores:chromium_ore", {
 		y_max          = -18000,
 	})
 
-minetest.register_craft({
+core.register_craft({
 	type = "cooking",
 	cooktime = 180,
 	output = "xtraores:chromium_bar",

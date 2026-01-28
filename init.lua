@@ -1,5 +1,5 @@
 xtraores  = {}
-xtraores.path = minetest.get_modpath("xtraores")
+xtraores.path = core.get_modpath("xtraores")
 
 dofile(xtraores.path .. "/ores.lua")
 dofile(xtraores.path .. "/items.lua")
@@ -10,13 +10,13 @@ dofile(xtraores.path .. "/special_weapons.lua")
 dofile(xtraores.path .. "/other_blocks.lua")
 dofile(xtraores.path .. "/awards.lua")
 
-minetest.register_globalstep(function(dtime, player, pos)
+core.register_globalstep(function(dtime, player, pos)
 
 
 
 
 
-	for _, player in pairs(minetest.get_connected_players()) do
+	for _, player in pairs(core.get_connected_players()) do
 local meta = player:get_meta()
 local xo_weapon_cool_down = meta:get_int("xo_weapon_cooldown") or 0
 if xo_weapon_cool_down < 10000 then
@@ -40,7 +40,7 @@ local xo_proj_c_down = w_item:get_definition().projectile_cooldown or 20
 local needed_ammo = w_item:get_definition().needed_ammo or ""
 
 		if not inv:contains_item("main", needed_ammo) then
-			minetest.sound_play("xtraores_empty", {object=player})
+			core.sound_play("xtraores_empty", {object=player})
 		end
 
 if  inv:contains_item("main", needed_ammo) then
@@ -54,11 +54,11 @@ if  inv:contains_item("main", needed_ammo) then
 			pos.y = pos.y + 1.6
 local proj_itself = w_item:get_definition().projectile_attack or "xtraores:gunsmoke"
 
-local obj = minetest.add_entity(pos, proj_itself)
+local obj = core.add_entity(pos, proj_itself)
 			if obj then
 
 local pr_sound = w_item:get_definition().projectile_sound or ""
-				minetest.sound_play(pr_sound, {object=obj})
+				core.sound_play(pr_sound, {object=obj})
 
 local p_vel = w_item:get_definition().projectile_velocity or 20
 local p_grav = w_item:get_definition().projectile_gravity or 10

@@ -1,5 +1,5 @@
 
-if minetest.get_modpath("3d_armor") then
+if core.get_modpath("3d_armor") then
 
 ----------------nickel set----------------------
 
@@ -12,7 +12,7 @@ if minetest.get_modpath("3d_armor") then
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_nickel',
 	recipe = {
 		{'xtraores:nickel_bar', 'xtraores:nickel_bar', 'xtraores:nickel_bar'},
@@ -30,7 +30,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_nickel',
 	recipe = {
 		{'xtraores:nickel_bar', '', 'xtraores:nickel_bar'},
@@ -48,7 +48,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_nickel',
 	recipe = {
 		{'xtraores:nickel_bar', 'xtraores:nickel_bar', 'xtraores:nickel_bar'},
@@ -66,7 +66,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_nickel',
 	recipe = {
 		{'', '', ''},
@@ -84,7 +84,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_nickel',
 	recipe = {
 		{'xtraores:nickel_bar', 'xtraores:nickel_bar', 'xtraores:nickel_bar'},
@@ -104,7 +104,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_platinum',
 	recipe = {
 		{'xtraores:platinum_bar', 'xtraores:platinum_bar', 'xtraores:platinum_bar'},
@@ -122,7 +122,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_platinum',
 	recipe = {
 		{'xtraores:platinum_bar', '', 'xtraores:platinum_bar'},
@@ -140,7 +140,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_platinum',
 	recipe = {
 		{'xtraores:platinum_bar', 'xtraores:platinum_bar', 'xtraores:platinum_bar'},
@@ -158,7 +158,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_platinum',
 	recipe = {
 		{'', '', ''},
@@ -177,7 +177,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_platinum',
 	recipe = {
 		{'xtraores:platinum_bar', 'xtraores:platinum_bar', 'xtraores:platinum_bar'},
@@ -199,7 +199,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_palladium',
 	recipe = {
 		{'xtraores:palladium_bar', 'xtraores:palladium_bar', 'xtraores:palladium_bar'},
@@ -217,7 +217,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_palladium',
 	recipe = {
 		{'xtraores:palladium_bar', '', 'xtraores:palladium_bar'},
@@ -235,7 +235,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_palladium',
 	recipe = {
 		{'xtraores:palladium_bar', 'xtraores:palladium_bar', 'xtraores:palladium_bar'},
@@ -253,7 +253,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_palladium',
 	recipe = {
 		{'', '', ''},
@@ -272,7 +272,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_palladium',
 	recipe = {
 		{'xtraores:palladium_bar', 'xtraores:palladium_bar', 'xtraores:palladium_bar'},
@@ -292,7 +292,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_cobalt',
 	recipe = {
 		{'xtraores:cobalt_bar', 'xtraores:cobalt_bar', 'xtraores:cobalt_bar'},
@@ -310,7 +310,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_cobalt',
 	recipe = {
 		{'xtraores:cobalt_bar', '', 'xtraores:cobalt_bar'},
@@ -328,7 +328,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_cobalt',
 	recipe = {
 		{'xtraores:cobalt_bar', 'xtraores:cobalt_bar', 'xtraores:cobalt_bar'},
@@ -346,7 +346,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_cobalt',
 	recipe = {
 		{'', '', ''},
@@ -365,7 +365,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_cobalt',
 	recipe = {
 		{'xtraores:cobalt_bar', 'xtraores:cobalt_bar', 'xtraores:cobalt_bar'},
@@ -385,7 +385,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_thorium',
 	recipe = {
 		{'xtraores:thorium_bar', 'xtraores:thorium_bar', 'xtraores:thorium_bar'},
@@ -403,7 +403,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_thorium',
 	recipe = {
 		{'xtraores:thorium_bar', '', 'xtraores:thorium_bar'},
@@ -421,7 +421,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_thorium',
 	recipe = {
 		{'xtraores:thorium_bar', 'xtraores:thorium_bar', 'xtraores:thorium_bar'},
@@ -439,7 +439,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_thorium',
 	recipe = {
 		{'', '', ''},
@@ -458,7 +458,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_thorium',
 	recipe = {
 		{'xtraores:thorium_bar', 'xtraores:thorium_bar', 'xtraores:thorium_bar'},
@@ -478,7 +478,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_osmium',
 	recipe = {
 		{'xtraores:osmium_bar', 'xtraores:osmium_bar', 'xtraores:osmium_bar'},
@@ -496,7 +496,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_osmium',
 	recipe = {
 		{'xtraores:osmium_bar', '', 'xtraores:osmium_bar'},
@@ -514,7 +514,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_osmium',
 	recipe = {
 		{'xtraores:osmium_bar', 'xtraores:osmium_bar', 'xtraores:osmium_bar'},
@@ -532,7 +532,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_osmium',
 	recipe = {
 		{'', '', ''},
@@ -551,7 +551,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_osmium',
 	recipe = {
 		{'xtraores:osmium_bar', 'xtraores:osmium_bar', 'xtraores:osmium_bar'},
@@ -571,7 +571,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_rhenium',
 	recipe = {
 		{'xtraores:rhenium_bar', 'xtraores:rhenium_bar', 'xtraores:rhenium_bar'},
@@ -589,7 +589,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_rhenium',
 	recipe = {
 		{'xtraores:rhenium_bar', '', 'xtraores:rhenium_bar'},
@@ -607,7 +607,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_rhenium',
 	recipe = {
 		{'xtraores:rhenium_bar', 'xtraores:rhenium_bar', 'xtraores:rhenium_bar'},
@@ -625,7 +625,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_rhenium',
 	recipe = {
 		{'', '', ''},
@@ -644,7 +644,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_rhenium',
 	recipe = {
 		{'xtraores:rhenium_bar', 'xtraores:rhenium_bar', 'xtraores:rhenium_bar'},
@@ -664,7 +664,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_vanadium',
 	recipe = {
 		{'xtraores:vanadium_bar', 'xtraores:vanadium_bar', 'xtraores:vanadium_bar'},
@@ -682,7 +682,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_vanadium',
 	recipe = {
 		{'xtraores:vanadium_bar', '', 'xtraores:vanadium_bar'},
@@ -700,7 +700,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_vanadium',
 	recipe = {
 		{'xtraores:vanadium_bar', 'xtraores:vanadium_bar', 'xtraores:vanadium_bar'},
@@ -718,7 +718,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_vanadium',
 	recipe = {
 		{'', '', ''},
@@ -737,7 +737,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_vanadium',
 	recipe = {
 		{'xtraores:vanadium_bar', 'xtraores:vanadium_bar', 'xtraores:vanadium_bar'},
@@ -757,7 +757,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_rarium',
 	recipe = {
 		{'xtraores:rarium_bar', 'xtraores:rarium_bar', 'xtraores:rarium_bar'},
@@ -775,7 +775,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_rarium',
 	recipe = {
 		{'xtraores:rarium_bar', '', 'xtraores:rarium_bar'},
@@ -793,7 +793,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_rarium',
 	recipe = {
 		{'xtraores:rarium_bar', 'xtraores:rarium_bar', 'xtraores:rarium_bar'},
@@ -811,7 +811,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_rarium',
 	recipe = {
 		{'', '', ''},
@@ -830,7 +830,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_rarium',
 	recipe = {
 		{'xtraores:rarium_bar', 'xtraores:rarium_bar', 'xtraores:rarium_bar'},
@@ -850,7 +850,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_orichalcum',
 	recipe = {
 		{'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar'},
@@ -868,7 +868,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_orichalcum',
 	recipe = {
 		{'xtraores:orichalcum_bar', '', 'xtraores:orichalcum_bar'},
@@ -886,7 +886,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_orichalcum',
 	recipe = {
 		{'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar'},
@@ -904,7 +904,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_orichalcum',
 	recipe = {
 		{'', '', ''},
@@ -923,7 +923,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_orichalcum',
 	recipe = {
 		{'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar', 'xtraores:orichalcum_bar'},
@@ -943,7 +943,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_titanium',
 	recipe = {
 		{'xtraores:titanium_bar', 'xtraores:titanium_bar', 'xtraores:titanium_bar'},
@@ -961,7 +961,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_titanium',
 	recipe = {
 		{'xtraores:titanium_bar', '', 'xtraores:titanium_bar'},
@@ -979,7 +979,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_titanium',
 	recipe = {
 		{'xtraores:titanium_bar', 'xtraores:titanium_bar', 'xtraores:titanium_bar'},
@@ -997,7 +997,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_titanium',
 	recipe = {
 		{'', '', ''},
@@ -1016,7 +1016,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_titanium',
 	recipe = {
 		{'xtraores:titanium_bar', 'xtraores:titanium_bar', 'xtraores:titanium_bar'},
@@ -1036,7 +1036,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:helmet_chromium',
 	recipe = {
 		{'xtraores:chromium_bar', 'xtraores:chromium_bar', 'xtraores:chromium_bar'},
@@ -1054,7 +1054,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:chestplate_chromium',
 	recipe = {
 		{'xtraores:chromium_bar', '', 'xtraores:chromium_bar'},
@@ -1072,7 +1072,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:leggings_chromium',
 	recipe = {
 		{'xtraores:chromium_bar', 'xtraores:chromium_bar', 'xtraores:chromium_bar'},
@@ -1090,7 +1090,7 @@ minetest.register_craft({
 		damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 	})
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:boots_chromium',
 	recipe = {
 		{'', '', ''},
@@ -1109,7 +1109,7 @@ minetest.register_craft({
 	})
 
 
-minetest.register_craft({
+core.register_craft({
 	output = 'xtraores:shield_chromium',
 	recipe = {
 		{'xtraores:chromium_bar', 'xtraores:chromium_bar', 'xtraores:chromium_bar'},

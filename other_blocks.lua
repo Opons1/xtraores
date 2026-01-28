@@ -1,6 +1,6 @@
 --------------------antracite torch-------------
 
-minetest.register_node("xtraores:antracite_torch", {
+core.register_node("xtraores:antracite_torch", {
 		description = "" ..core.colorize("#68fff6", "Antracite torch\n")..core.colorize("#FFFFFF", "range: 5\n")..core.colorize("#FFFFFF", "Can be placed"),
 	drawtype = "mesh",
 	range = 5.0,
@@ -27,8 +27,8 @@ minetest.register_node("xtraores:antracite_torch", {
 	sounds = default.node_sound_wood_defaults(),
 	on_place = function(itemstack, placer, pointed_thing)
 		local under = pointed_thing.under
-		local node = minetest.get_node(under)
-		local def = minetest.registered_nodes[node.name]
+		local node = core.get_node(under)
+		local def = core.registered_nodes[node.name]
 		if def and def.on_rightclick and
 			((not placer) or (placer and not placer:get_player_control().sneak)) then
 			return def.on_rightclick(under, node, placer, itemstack,
@@ -36,7 +36,7 @@ minetest.register_node("xtraores:antracite_torch", {
 		end
 
 		local above = pointed_thing.above
-		local wdir = minetest.dir_to_wallmounted(vector.subtract(under, above))
+		local wdir = core.dir_to_wallmounted(vector.subtract(under, above))
 		local fakestack = itemstack
 		if wdir == 0 then
 			fakestack:set_name("xtraores:antracite_torch_ceiling")
@@ -46,14 +46,14 @@ minetest.register_node("xtraores:antracite_torch", {
 			fakestack:set_name("xtraores:antracite_torch_wall")
 		end
 
-		itemstack = minetest.item_place(fakestack, placer, pointed_thing, wdir)
+		itemstack = core.item_place(fakestack, placer, pointed_thing, wdir)
 		itemstack:set_name("xtraores:antracite_torch")
 
 		return itemstack
 	end
 })
 
-minetest.register_node("xtraores:antracite_torch_wall", {
+core.register_node("xtraores:antracite_torch_wall", {
 	drawtype = "mesh",
 	mesh = "torch_wall.obj",
 	tiles = {{
@@ -74,7 +74,7 @@ minetest.register_node("xtraores:antracite_torch_wall", {
 	sounds = default.node_sound_wood_defaults(),
 })
 
-minetest.register_node("xtraores:antracite_torch_ceiling", {
+core.register_node("xtraores:antracite_torch_ceiling", {
 	drawtype = "mesh",
 	mesh = "torch_ceiling.obj",
 	tiles = {{
