@@ -3,7 +3,7 @@
 ---------------------nickel---------------------
 
 core.register_node("xtraores:nickel_ore", {
-		description = "" ..core.colorize("#68fff6", "Nickel ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 1"),
+		description = "" ..core.colorize("#68fff6", "Nickel Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 1"),
 	tiles = {"default_stone.png^xtraores_nickel_ore.png"},
 	inventory_image = "xtraores_nickel_lump.png",
 	stack_max= 999,
@@ -33,7 +33,7 @@ core.register_craft({
 ---------------------platinum---------------------
 
 core.register_node("xtraores:platinum_ore", {
-		description = "" ..core.colorize("#68fff6", "Platinum ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 2"),
+		description = "" ..core.colorize("#68fff6", "Platinum Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 2"),
 	tiles = {"default_stone.png^xtraores_platinum_ore.png"},
 	inventory_image = "xtraores_platinum_lump.png",
 	stack_max= 999,
@@ -62,7 +62,7 @@ core.register_craft({
 ---------------------palladium---------------------
 
 core.register_node("xtraores:palladium_ore", {
-		description = "" ..core.colorize("#68fff6", "palladium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 3"),
+		description = "" ..core.colorize("#68fff6", "Palladium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 3"),
 	tiles = {"default_stone.png^xtraores_palladium_ore.png"},
 	inventory_image = "xtraores_palladium_lump.png",
 	stack_max= 999,
@@ -91,7 +91,7 @@ core.register_craft({
 ---------------------cobalt---------------------
 
 core.register_node("xtraores:cobalt_ore", {
-		description = "" ..core.colorize("#68fff6", "Cobalt ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 4"),
+		description = "" ..core.colorize("#68fff6", "Cobalt Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 4"),
 	tiles = {"default_stone.png^xtraores_cobalt_ore.png"},
 	inventory_image = "xtraores_cobalt_lump.png",
 	stack_max= 999,
@@ -120,7 +120,7 @@ core.register_craft({
 ---------------------thorium---------------------
 
 core.register_node("xtraores:thorium_ore", {
-		description = "" ..core.colorize("#68fff6", "Thorium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 5"),
+		description = "" ..core.colorize("#68fff6", "Thorium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 5"),
 	tiles = {"default_stone.png^xtraores_thorium_ore.png"},
 	inventory_image = "xtraores_thorium_lump.png",
 	stack_max= 999,
@@ -150,7 +150,7 @@ core.register_craft({
 -----------------antracite ore--------------
 
 core.register_node("xtraores:antracite_ore", {
-		description = "" ..core.colorize("#68fff6", "antracite\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 5"),
+		description = "" ..core.colorize("#68fff6", "Antracite\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 5"),
 	tiles = {"default_stone.png^xtraores_antracite_ore.png"},
 	inventory_image = "xtraores_antracite_lump.png",
 	stack_max= 999,
@@ -188,7 +188,7 @@ core.register_craft({
 ---------------------osmium---------------------
 
 core.register_node("xtraores:osmium_ore", {
-		description = "" ..core.colorize("#68fff6", "Osmium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 6"),
+		description = "" ..core.colorize("#68fff6", "Osmium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 6"),
 	tiles = {"default_stone.png^xtraores_osmium_ore.png"},
 	inventory_image = "xtraores_osmium_lump.png",
 	stack_max= 999,
@@ -218,7 +218,7 @@ core.register_craft({
 ---------------------rhenium---------------------
 
 core.register_node("xtraores:rhenium_ore", {
-		description = "" ..core.colorize("#68fff6", "Rhenium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 7"),
+		description = "" ..core.colorize("#68fff6", "Rhenium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 7"),
 	tiles = {"default_stone.png^xtraores_rhenium_ore.png"},
 	inventory_image = "xtraores_rhenium_lump.png",
 	stack_max= 999,
@@ -248,7 +248,7 @@ core.register_craft({
 ---------------------vanadium---------------------
 
 core.register_node("xtraores:vanadium_ore", {
-		description = "" ..core.colorize("#68fff6", "vanadium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 8"),
+		description = "" ..core.colorize("#68fff6", "Vanadium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 8"),
 	tiles = {"default_stone.png^xtraores_vanadium_ore.png"},
 	inventory_image = "xtraores_vanadium_lump.png",
 	stack_max= 999,
@@ -278,7 +278,7 @@ core.register_craft({
 ---------------------rarium---------------------
 
 core.register_node("xtraores:rarium_ore", {
-		description = "" ..core.colorize("#68fff6", "Rarium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 9"),
+		description = "" ..core.colorize("#68fff6", "Rarium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 9"),
 	tiles = {{
 		    name = "xtraores_rarium_ore.png",
 		    animation = {type = "vertical_frames", aspect_w = 16, aspect_h = 16, length = 1.0}
@@ -342,7 +342,7 @@ core.register_craft({
 ---------------------titanium---------------------
 
 core.register_node("xtraores:titanium_ore", {
-		description = "" ..core.colorize("#68fff6", "titanium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 11"),
+		description = "" ..core.colorize("#68fff6", "Titanium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 11"),
 	tiles = {"default_stone.png^xtraores_titanium_ore.png"},
 	inventory_image = "xtraores_titanium_lump.png",
 	stack_max= 999,
@@ -406,7 +406,7 @@ core.register_craft({
 ---------------------chromium---------------------
 
 core.register_node("xtraores:chromium_ore", {
-		description = "" ..core.colorize("#68fff6", "Strong Chromium ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 12"),
+		description = "" ..core.colorize("#68fff6", "Strong Chromium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 12"),
 	tiles = {"default_stone.png^xtraores_chromium_ore.png"},
 	inventory_image = "xtraores_chromium_lump.png",
 	stack_max= 999,
