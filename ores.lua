@@ -342,7 +342,7 @@ core.register_craft({
 ---------------------titanium---------------------
 
 core.register_node("xtraores:titanium_ore", {
-		description = "" ..core.colorize("#68fff6", "Titanium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 11"),
+		description = "" ..core.colorize("#68fff6", "Strong Titanium Ore\n")..core.colorize("#FFFFFF", "Can be placed\n")..core.colorize("#FFFFFF", "Material\n")..core.colorize("#FFFFFF", "Xtraores ore level: 11"),
 	tiles = {"default_stone.png^xtraores_titanium_ore.png"},
 	inventory_image = "xtraores_titanium_lump.png",
 	stack_max= 999,
