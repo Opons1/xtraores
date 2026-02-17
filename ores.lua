@@ -25,7 +25,7 @@ core.register_node("xtraores:nickel_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 2,
+	cooktime = 5,
 	output = "xtraores:nickel_bar",
 	recipe = "xtraores:nickel_ore",
 })
@@ -54,7 +54,7 @@ core.register_node("xtraores:platinum_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 5,
+	cooktime = 10,
 	output = "xtraores:platinum_bar",
 	recipe = "xtraores:platinum_ore",
 })
@@ -83,7 +83,7 @@ core.register_node("xtraores:palladium_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 12,
+	cooktime = 20,
 	output = "xtraores:palladium_bar",
 	recipe = "xtraores:palladium_ore",
 })
@@ -112,7 +112,7 @@ core.register_node("xtraores:cobalt_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 20,
+	cooktime = 30,
 	output = "xtraores:cobalt_bar",
 	recipe = "xtraores:cobalt_ore",
 })
@@ -142,7 +142,7 @@ core.register_node("xtraores:thorium_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 32,
+	cooktime = 64,
 	output = "xtraores:thorium_bar",
 	recipe = "xtraores:thorium_ore",
 })
@@ -182,7 +182,7 @@ core.register_craft({
 core.register_craft({
 	type = "fuel",
 	recipe = "xtraores:antracite_ore",
-	burntime = 164,
+	burntime = 328,
 })
 
 ---------------------osmium---------------------
@@ -210,7 +210,7 @@ core.register_node("xtraores:osmium_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 45,
+	cooktime = 90,
 	output = "xtraores:osmium_bar",
 	recipe = "xtraores:osmium_ore",
 })
@@ -240,7 +240,7 @@ core.register_node("xtraores:rhenium_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 60,
+	cooktime = 120,
 	output = "xtraores:rhenium_bar",
 	recipe = "xtraores:rhenium_ore",
 })
@@ -270,7 +270,7 @@ core.register_node("xtraores:vanadium_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 75,
+	cooktime = 150,
 	output = "xtraores:vanadium_bar",
 	recipe = "xtraores:vanadium_ore",
 })
@@ -304,7 +304,7 @@ core.register_node("xtraores:rarium_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 90,
+	cooktime = 180,
 	output = "xtraores:rarium_bar",
 	recipe = "xtraores:rarium_ore",
 })
@@ -334,7 +334,7 @@ core.register_node("xtraores:orichalcum_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 120,
+	cooktime = 240,
 	output = "xtraores:orichalcum_bar",
 	recipe = "xtraores:orichalcum_ore",
 })
@@ -364,7 +364,7 @@ core.register_node("xtraores:titanium_ore", {
 
 core.register_craft({
 	type = "cooking",
-	cooktime = 145,
+	cooktime = 290,
 	output = "xtraores:titanium_bar",
 	recipe = "xtraores:titanium_ore",
 })
@@ -426,7 +426,8 @@ core.register_node("xtraores:chromium_ore", {
 	})
 core.register_craft({
 	type = "cooking",
-	cooktime = 180,
+	cooktime = 360,
 	output = "xtraores:chromium_bar",
 	recipe = "xtraores:chromium_ore",
+
 })
